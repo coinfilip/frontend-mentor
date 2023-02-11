@@ -4,9 +4,40 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
 }
 
-p {
-    font-size: 15px;
+body {
+    background-color: var(--light-gray);
+}
+
+p { 
+    padding: 0 20px;
+}
+
+#title {
+    font-weight: bold;
+    color: var(--dark-blue);
+    font-size: 24px;
+}
+
+#text {
+    color: var(--grayish-blue);
+    font-size: 17px;
+}
+
+.container {
+    background-color: var(--white);
+    width: 320px;
+    margin: 150px auto;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+img {
+    width: inherit;
+    border-radius: 10px;
 }
 
