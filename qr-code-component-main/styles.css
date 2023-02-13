@@ -56,3 +56,16 @@ img {
     border-radius: 10px;
 }
 
+
+/* Styles from the Frontend Mentor template */
+.attribution { 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* End */
