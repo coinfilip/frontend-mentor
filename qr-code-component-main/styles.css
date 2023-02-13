@@ -10,12 +10,14 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 800px;
-}
-
 body {
     background-color: var(--light-gray);
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 p { 
@@ -41,8 +43,8 @@ p {
     background-color: var(--white);
     height: 545px;
     width: 350px;
-    margin: 165px auto;
     padding: 17px;
+    margin: 0 auto;
     border-radius: 22px;
     text-align: center;
     box-shadow: 0 15px 30px rgb(205, 213, 223);
