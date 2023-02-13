@@ -10,19 +10,12 @@
     box-sizing: border-box;
 }
 
-/* Styles from the Frontend Mentor template */
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+html {
+    height: 800px;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-/* End */
 
 body {
     background-color: var(--light-gray);
-    height: 800px;
 }
 
 p { 
@@ -48,7 +41,7 @@ p {
     background-color: var(--white);
     height: 545px;
     width: 350px;
-    margin: 170px auto;
+    margin: 165px auto;
     padding: 17px;
     border-radius: 22px;
     text-align: center;
