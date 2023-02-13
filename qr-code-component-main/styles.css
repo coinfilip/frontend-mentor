@@ -64,6 +64,7 @@ img {
     right: 0;
     font-size: 11px; 
     text-align: center; 
+    width: 100vw;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
