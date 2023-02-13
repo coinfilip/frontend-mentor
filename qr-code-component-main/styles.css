@@ -1,9 +1,12 @@
 :root {
     --white: hsl(0, 0%, 100%);
-    --light-gray: hsl(212, 45%, 89%);
+    --light-gray: hsl(212, 46%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
+}
+
+* {
     box-sizing: border-box;
 }
 
@@ -19,35 +22,42 @@
 
 body {
     background-color: var(--light-gray);
+    height: 800px;
 }
 
 p { 
     padding: 0 20px;
+    margin: 0;
 }
 
 #title {
     font-weight: bold;
     color: var(--dark-blue);
     font-size: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
 }
 
 #text {
     color: var(--grayish-blue);
     font-size: 17px;
+    margin-top: 16px;
 }
 
 .container {
     background-color: var(--white);
-    width: 320px;
-    margin: 150px auto;
-    padding: 15px;
-    border-radius: 20px;
+    height: 545px;
+    width: 350px;
+    margin: 170px auto;
+    padding: 17px;
+    border-radius: 22px;
     text-align: center;
+    box-shadow: 0 15px 30px rgb(205, 213, 223);
 }
 
 
 img {
-    width: inherit;
+    width: 316px;
     border-radius: 10px;
 }
 
