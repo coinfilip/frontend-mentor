@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/qr-code-component-main)
+- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/qr-code-component-main/)
 
 ## My process
 
@@ -43,37 +43,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Learned to use the ruler from the browser's DevTools. It was very handy to me that's struggling to check about the dimensions (height and width) I need to use for the component as I start from zero.
 
-To see how you can add code snippets, see below:
+Relearned something about setting the attribution to the bottom of the page and that's by using the 'fixed' value for the position attribute on the footer selector. Since it doesn't follow the normal flow of the page, I believe it is handy to not affect the other elements in the body. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Positioning the component in the center horizontally and vertically is the hardest part for me. Actually, horizontal center is quite easy which leaves us with the vertical center that gave me headaches as to what I should do. Luckily, with a Google search, I got the answer, using Flexbox.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Setting the display attribute of the body to 'flex' and setting the align-items and justify-content attribute to 'center' solved the problem for me.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Setting the margin also to 0 to avoid having to deal with problems about extra space despite setting the height to just the entirety of the screen height. 
 
 ### Continued development
 
@@ -90,14 +81,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Github  Profile](https://github.com/coinfilip)
+- Frontend Mentor - [@coinfilip](https://www.frontendmentor.io/profile/coinfilip)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I would like to thank [Melvin Aguilar](https://www.frontendmentor.io/profile/MelvinAguilar) for giving feedback to the early version of the solution. The advises provided in his comment helped shape the current code of the solution you're now seeing. 
