@@ -62,10 +62,8 @@ Not quite used to flexbox (as I forgot the basics and relearning them again) so 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Vertically align a container using Flexbox](https://stackoverflow.com/a/52867648) - This helped me do exactly that since I only managed to center align elements horizontally. 
+- [The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) - An article shared to me by Melvin got me immersed in another perspective for accessibility. This got me avoiding the use of pixels at least in font sizes in my future exercises (I'll try).
 
 ## Author
 
