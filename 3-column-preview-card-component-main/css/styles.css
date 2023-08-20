@@ -4,10 +4,6 @@
 /* desktop */
 /* max-width: 1440px; */
 
-/* for later use: fonts */
-    /* font-family: 'Big Shoulders Display', cursive;
-    font-family: 'Lexend Deca', sans-serif; */
-
 :root {
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
@@ -16,6 +12,8 @@
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
+
+
 
 .sedan {
     background-color: var(--bright-orange);
@@ -28,6 +26,18 @@
 .luxury {
     background-color: var(--very-dark-cyan);
 }
+
+
+
+div h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+div p, div button {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
 
 /* Attribution/Footer section */
 
