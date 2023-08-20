@@ -37,9 +37,14 @@ div h1 {
     color: var(--very-light-gray);
 }
 
-div p, div button {
+div p {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--transparent-white);
+}
+
+div button {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--transparent-white);
 }
 
 
