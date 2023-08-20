@@ -19,14 +19,17 @@
 
 .sedan {
     background-color: var(--bright-orange);
+    color: var(--bright-orange);
 }
 
 .suv {
     background-color: var(--dark-cyan);
+    color: var(--dark-cyan);
 }
 
 .luxury {
     background-color: var(--very-dark-cyan);
+    color: var(--very-dark-cyan);
 }
 
 
@@ -47,6 +50,7 @@ div button {
     background-color: var(--very-light-gray);
     border: 2px solid var(--very-light-gray);
     cursor: pointer;
+    color: inherit;
 }
 
 
