@@ -16,3 +16,15 @@
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
+
+.sedan {
+    background-color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
