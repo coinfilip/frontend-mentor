@@ -46,6 +46,7 @@ div button {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--very-light-gray);
     border: 2px solid var(--very-light-gray);
+    cursor: pointer;
 }
 
 
