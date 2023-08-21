@@ -82,6 +82,10 @@ main {
 
 
 
+main div {
+    padding: 40px;
+}
+
 div h1 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
