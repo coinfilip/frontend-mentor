@@ -27,17 +27,23 @@ body {
     justify-content: center;
 }
 
+main {
+    display: flex;
+}
+
 
 
 @media screen, (min-width: 375px) and (max-width: 1439px) {
     main {
         max-width: 325px;
+        flex-direction: column;
     }    
 }
 
 @media screen and (min-width: 1440px) {
     main {
         max-width: 920px;
+        flex-direction: row;
     }    
 }
 
