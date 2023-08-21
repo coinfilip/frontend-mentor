@@ -21,6 +21,20 @@ body {
 
 
 
+@media screen, (min-width: 375px) and (max-width: 1439px) {
+    main {
+        max-width: 325px;
+    }    
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        max-width: 920px;
+    }    
+}
+
+
+
 .sedan {
     background-color: var(--bright-orange);
     color: var(--bright-orange);
