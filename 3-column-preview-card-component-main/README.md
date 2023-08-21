@@ -16,8 +16,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -46,51 +44,39 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+One issue I encountered is the overflow on body (making the first div inside main not display in full on mobile screen size) as I haven't properly set the height of the body to accommodate the whole height of the contents inside main. One remedy I discovered is by setting the min-height of body to 100vh instead of only height. 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+For active state/s on the button, I used the :active selector
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+button:active {
+  ...
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+On the development of this solution, I adopted the mindset of dividing the challenge into smaller problems that I can solve. I don't know if it triggered some headaches to those reading the (commit) history, but I made a lot of commits every time each change was made. *I hope it didn't, but I understand if that's not the case.*
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Also, I made a first attempt on developing the solution to the challenge on another branch (draft) instead of main. Commands like `git checkout -b draft` (creates a branch called *draft*), `git push origin draft` (pushes commits from local machine to remote repository) and `git branch -a` (just shows all branches). Once finished, made a pull request and merged the new branch back to main without review, gaining a YOLO achievement from Github in the process. *Lol*.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For CSS: Might focus in the future on honing my Flexbox skills and using Grid as well.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For Git/Github: Practice more on branching and making merge/pull request on future challenges.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [How to prevent overflow scrolling in CSS](https://blog.logrocket.com/how-to-prevent-overflow-scrolling-css/) - This helped me to pinpoint the possible source of the problem when I encountered the sedan div being cropped when screen size is below desktop.
+- [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) - One of the helpful articles that got me starting to create a new branch to develop the solution to this challenge.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Github  Profile](https://github.com/coinfilip)
+- Frontend Mentor - [@coinfilip](https://www.frontendmentor.io/profile/coinfilip)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Would like to thank:
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- The Odin Project
+- those behind the sites cited in Useful resources section
+- Frontend Mentor for the opportunity to take on this challenge
