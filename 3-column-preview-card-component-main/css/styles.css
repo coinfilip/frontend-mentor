@@ -53,6 +53,7 @@ main {
 @media screen and (min-width: 1440px) {
     main {
         max-width: 920px;
+        min-height: 500px;
         flex-direction: row;
     }
 
