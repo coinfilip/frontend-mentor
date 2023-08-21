@@ -95,10 +95,13 @@ div p {
 
 div button {
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
     background-color: var(--very-light-gray);
     border: 2px solid var(--very-light-gray);
+    border-radius: 1.5em;
     cursor: pointer;
     color: inherit;
+    padding: 0.5em 1.5em;
 }
 
 
