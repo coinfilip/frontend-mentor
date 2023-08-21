@@ -119,6 +119,11 @@ section button {
     padding: 0.5em 1.5em;
 }
 
+section button:active {
+    background-color: inherit;
+    color: var(--very-light-gray);
+}
+
 
 
 /* Attribution/Footer section */
