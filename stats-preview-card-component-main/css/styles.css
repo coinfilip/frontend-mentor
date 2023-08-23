@@ -49,6 +49,14 @@ body {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .right {
+        height: 240px;
+        width: 327px;
+        background: url(../images/image-header-mobile.jpg) no-repeat top center;
+        background-size: contain;
+        border-radius: 0.5em 0.5em 0 0;
+    }
 }
 
 @media screen and (min-width: 1440px) {
