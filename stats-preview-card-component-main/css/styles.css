@@ -1,6 +1,10 @@
-/* sizes
+/*  sizes
     mobile: 375px
     desktop: 1440px
+
+    fonts
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 */
 
 :root {
@@ -13,6 +17,8 @@
     --white: hsl(0, 0%, 100%);
     --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
     --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+
+    font-size: 15px;
 }
 
 * {
