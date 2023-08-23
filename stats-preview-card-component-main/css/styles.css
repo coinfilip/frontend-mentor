@@ -88,10 +88,6 @@ body {
         padding: 54px 106px 64px 72px;
         flex: 51.5%;
         border-radius: 0.5em 0 0 0.5em;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     h1 {
@@ -114,6 +110,9 @@ body {
 
 .left {
     background-color: var(--dark-desaturated-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right {
