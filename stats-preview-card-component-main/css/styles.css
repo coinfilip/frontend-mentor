@@ -41,7 +41,7 @@ body {
 
 main {
     max-width: 1170px;
-    max-height: 450px;
+    height: 450px;
     display: flex;
 }
 
@@ -72,6 +72,12 @@ h1 {
     color: var(--slightly-transparent-white-p);
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.75em;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
 }
 
 .figures {
