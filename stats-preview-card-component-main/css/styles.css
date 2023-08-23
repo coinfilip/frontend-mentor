@@ -39,6 +39,16 @@ body {
 
 
 @media screen, (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 956px;
+    }
+
+    main {
+        width: 327px;
+        height: 780px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (min-width: 1440px) {
