@@ -74,6 +74,11 @@ body {
         justify-content: space-between;
     }
 
+    .figures {
+        font-size: 1.55em;
+        margin: 0 0 0.29em;
+    }
+
     .right {
         height: 240px;
         width: 327px;
@@ -109,6 +114,11 @@ body {
 
     .mainDesc, .stats {
         width: 350px;
+    }
+
+    .figures {
+        font-size: 1.6em;
+        margin: 0 0 0.25em;
     }
     
     .right {
@@ -157,9 +167,7 @@ h1 {
 .figures {
     color: var(--white);
     font-family: 'Inter', sans-serif;
-    font-size: 1.6em;
     font-weight: 600;
-    margin: 0 0 0.25em;
     letter-spacing: 0.015em;
 }
 
