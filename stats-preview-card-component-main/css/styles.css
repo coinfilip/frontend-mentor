@@ -48,12 +48,12 @@ main {
 .left {
     background-color: var(--dark-desaturated-blue);
     padding: 90px 80px 60px;
-    flex: 53%;
+    flex: 51.5%;
 }
 
 .right {
     background-color: var(--soft-violet);
-    flex: 47%;
+    flex: 48.5%;
 }
 
 
