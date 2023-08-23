@@ -63,6 +63,7 @@ body {
     .right {
         flex: 48.5%;
         border-radius: 0 0.5em 0.5em 0;
+        background: url(../images/image-header-desktop.jpg) no-repeat top center;
     }
 }
 
@@ -72,6 +73,7 @@ body {
 
 .right {
     background-color: var(--soft-violet);
+    background-blend-mode: multiply;
 }
 
 
@@ -92,8 +94,7 @@ h1 {
 
 .mainDesc {
     color: var(--slightly-transparent-white-p);
-    /* font-family: 'Inter', sans-serif; */
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.97em;
     line-height: 1.7em;
 }
@@ -114,10 +115,10 @@ h1 {
 .figDesc {
     color: var(--slightly-transparent-white-h);
     text-transform: uppercase;
-    /* font-family: 'Inter', sans-serif; */
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.85em;
     margin: 0;
+    letter-spacing: 0.03em;
 }
 
 
