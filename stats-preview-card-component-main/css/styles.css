@@ -16,7 +16,7 @@
     /* Neutral */
     --white: hsl(0, 0%, 100%);
     --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.5);
-    --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.5);
+    --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.4);
 
     font-size: 15px;
 }
@@ -47,13 +47,17 @@ body {
     }
 
     .left {
-        padding: 55px 110px 65px 70px;
+        padding: 54px 106px 64px 72px;
         flex: 51.5%;
         border-radius: 0.5em 0 0 0.5em;
 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .mainDesc, .stats {
+        width: 350px;
     }
     
     .right {
@@ -78,6 +82,8 @@ h1 {
     font-weight: 600;
     font-size: 2.35em;
     margin-top: 0.5em;
+    letter-spacing: 0.015em;
+    line-height: 1.25em;
 }
 
 .violet {
@@ -88,7 +94,8 @@ h1 {
     color: var(--slightly-transparent-white-p);
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Lexend Deca', sans-serif;
-    line-height: 1.75em;
+    font-size: 0.97em;
+    line-height: 1.7em;
 }
 
 .stats {
@@ -99,9 +106,9 @@ h1 {
 .figures {
     color: var(--white);
     font-family: 'Inter', sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: 0 0 0.5em;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 0.25em;
 }
 
 .figDesc {
