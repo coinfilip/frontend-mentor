@@ -47,7 +47,7 @@ body {
     }
 
     .left {
-        padding: 90px 80px 60px;
+        padding: 65px 90px 55px 70px;
         flex: 51.5%;
     }
     
@@ -68,8 +68,10 @@ body {
 
 h1 {
     color: var(--white);
-    /* font-family: 'Inter', sans-serif; */
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.35em;
+    margin-top: 0.5em;
 }
 
 .violet {
