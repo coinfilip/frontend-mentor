@@ -1,3 +1,8 @@
+/* sizes
+    mobile: 375px
+    desktop: 1440px
+*/
+
 :root {
     /* Primary */
     --very-dark-blue: hsl(233, 47%, 7%);
