@@ -49,10 +49,13 @@ main {
 /* Attribution/Footer section */
 
 .attribution { 
+    font-family: 'Lexend Deca', sans-serif;
+    position: fixed;
+    bottom: 5px;
+    width: 100vw;
     font-size: 11px; 
     text-align: center; 
 }
-
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
