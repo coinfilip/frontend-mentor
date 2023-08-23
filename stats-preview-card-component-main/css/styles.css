@@ -57,6 +57,10 @@ body {
         text-align: center;
     }
 
+    .stats {
+        flex-direction: column;
+    }
+
     .right {
         height: 240px;
         width: 327px;
