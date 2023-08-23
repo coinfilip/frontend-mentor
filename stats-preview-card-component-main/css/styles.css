@@ -34,7 +34,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     min-height: 100vh;
-    /* background-color: var(--very-dark-blue); */
+    background-color: var(--very-dark-blue);
 }
 
 
@@ -44,6 +44,32 @@ main {
     max-height: 450px;
 }
 
+.left {
+    background-color: var(--dark-desaturated-blue);
+}
+
+
+
+h1 {
+    color: var(--white);
+}
+
+.violet {
+    color: var(--soft-violet);
+}
+
+.mainDesc {
+    color: var(--slightly-transparent-white-p);
+}
+
+.figures {
+    color: var(--white);
+}
+
+.figDesc {
+    color: var(--slightly-transparent-white-h);
+    text-transform: uppercase;
+}
 
 
 /* Attribution/Footer section */
