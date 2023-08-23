@@ -65,7 +65,9 @@ body {
     }
 
     .stats {
+        height: 210px;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .right {
