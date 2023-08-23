@@ -95,8 +95,9 @@ h1 {
 .mainDesc {
     color: var(--slightly-transparent-white-p);
     font-family: 'Inter', sans-serif;
-    font-size: 0.97em;
-    line-height: 1.7em;
+    font-size: 1em;
+    line-height: 1.68em;
+    letter-spacing: 0.0015em;
 }
 
 .stats {
