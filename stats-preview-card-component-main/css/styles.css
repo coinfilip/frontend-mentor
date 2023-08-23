@@ -42,10 +42,18 @@ body {
 main {
     max-width: 1170px;
     max-height: 450px;
+    display: flex;
 }
 
 .left {
     background-color: var(--dark-desaturated-blue);
+    padding: 90px 80px 60px;
+    flex: 53%;
+}
+
+.right {
+    background-color: var(--soft-violet);
+    flex: 47%;
 }
 
 
