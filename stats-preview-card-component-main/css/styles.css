@@ -39,21 +39,29 @@ body {
 
 
 
-main {
-    max-width: 1170px;
-    height: 450px;
-    display: flex;
+@media screen and (min-width: 1440px) {
+    main {
+        max-width: 1220px;
+        height: 450px;
+        display: flex;
+    }
+
+    .left {
+        padding: 90px 80px 60px;
+        flex: 51.5%;
+    }
+    
+    .right {
+        flex: 48.5%;
+    }
 }
 
 .left {
     background-color: var(--dark-desaturated-blue);
-    padding: 90px 80px 60px;
-    flex: 51.5%;
 }
 
 .right {
     background-color: var(--soft-violet);
-    flex: 48.5%;
 }
 
 
