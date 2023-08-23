@@ -64,6 +64,10 @@ body {
         letter-spacing: 0.019em;
     }
 
+    .mainDesc {
+        line-height: 1.665em;
+    }
+
     .stats {
         height: 210px;
         flex-direction: column;
@@ -97,6 +101,10 @@ body {
         margin-top: 0.5em;
         line-height: 1.25em;
         letter-spacing: 0.015em;
+    }
+
+    .mainDesc {
+        line-height: 1.68em;
     }
 
     .mainDesc, .stats {
@@ -138,7 +146,6 @@ h1 {
     color: var(--slightly-transparent-white-p);
     font-family: 'Inter', sans-serif;
     font-size: 1em;
-    line-height: 1.68em;
     letter-spacing: 0.0015em;
 }
 
