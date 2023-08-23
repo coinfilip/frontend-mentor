@@ -52,6 +52,8 @@ main {
 
 h1 {
     color: var(--white);
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .violet {
@@ -60,15 +62,21 @@ h1 {
 
 .mainDesc {
     color: var(--slightly-transparent-white-p);
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .figures {
     color: var(--white);
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
 }
 
 .figDesc {
     color: var(--slightly-transparent-white-h);
     text-transform: uppercase;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
