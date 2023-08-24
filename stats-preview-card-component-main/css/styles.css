@@ -76,7 +76,13 @@ body {
 
     .figures {
         font-size: 1.55em;
-        margin: 0 0 0.29em;
+        margin: 0 0 0.34em;
+        letter-spacing: 0.035em;
+    }
+
+    .figDesc {
+        font-size: 0.85em;
+        letter-spacing: 0.035em;
     }
 
     .right {
@@ -119,6 +125,12 @@ body {
     .figures {
         font-size: 1.6em;
         margin: 0 0 0.25em;
+        letter-spacing: 0.015em;
+    }
+
+    .figDesc {
+        font-size: 0.85em;
+        letter-spacing: 0.03em;
     }
     
     .right {
@@ -168,16 +180,13 @@ h1 {
     color: var(--white);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    letter-spacing: 0.015em;
 }
 
 .figDesc {
     color: var(--slightly-transparent-white-h);
     text-transform: uppercase;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.85em;
     margin: 0;
-    letter-spacing: 0.03em;
 }
 
 
