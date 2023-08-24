@@ -38,7 +38,7 @@ body {
 }
 
 
-@media screen, (min-width: 375px) and (max-width: 1439px) {
+@media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 956px;
     }
@@ -94,7 +94,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
     main {
         width: 1110px;
         height: 445px;
