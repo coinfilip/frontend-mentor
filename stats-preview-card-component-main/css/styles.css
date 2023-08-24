@@ -6,8 +6,8 @@
 
     /* Neutral */
     --white: hsl(0, 0%, 100%);
-    --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.5);
-    --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.4);
+    --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
 
     font-size: 15px;
 }
