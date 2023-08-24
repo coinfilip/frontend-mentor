@@ -80,7 +80,7 @@ body {
         height: 240px;
         width: 327px;
         background: url(../images/image-header-mobile.jpg) no-repeat top center;
-        background-size: contain;
+        background-size: cover;
         border-radius: 0.5em 0.5em 0 0;
     }
 }
