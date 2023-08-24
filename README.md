@@ -1,6 +1,6 @@
 # Challenges from Frontend Mentor
 
-### Stats preview card component solution
+### Stats preview card component
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/stats-preview-card-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/stats-preview-card-component-main/)
 
