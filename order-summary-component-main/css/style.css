@@ -1,0 +1,38 @@
+:root {
+    /* Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    /* Font Rules */
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+@media screen, (min-width: 375px) and (max-width: 1439px) {
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+}
+
+
+
+/* Attribution/Footer section */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
