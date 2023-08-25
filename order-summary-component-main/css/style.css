@@ -1,0 +1,287 @@
+:root {
+    /* Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    /* Font Rules */
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 709px;
+        background: url(../images/pattern-background-mobile.svg) no-repeat top center;
+        background-size: contain;
+        background-color: var(--pale-blue);
+    }
+
+    main {
+        height: 567px;
+        width: 327px;
+    }
+
+    .card-image {
+        height: 160px;
+    }
+
+    .card-details {
+        height: 407px;
+        padding: 2em 1.5em;
+    }
+
+    h1 {
+        font-size: 1.375em;
+    }
+
+    .mainDesc {
+        font-size: 0.945em;
+        line-height: 1.575rem;
+        margin-top: 1.05em;
+        padding: 0 0.75em;
+    }
+
+    .secPlan {
+        padding: 1rem;
+        margin-top: 1.5em;
+    }
+
+    .secPlanMid {
+        row-gap: 0.18em;
+    }
+
+    .planName {
+        font-size: 0.87em;
+    }
+
+    .planPrice {
+        font-size: 0.9em;
+    }
+
+    .planBtn {
+        font-size: 0.825em;
+        font-weight: 900;
+        letter-spacing: -0.01em;
+    }
+    
+    button {
+        font-weight: 700;
+    }
+
+    .btnProceed {
+        margin-top: 1.6em;
+        letter-spacing: 0.0125em;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    body {
+        min-height: 900px;
+        background: url(../images/pattern-background-desktop.svg) no-repeat top center;
+        background-size: contain;
+        background-color: var(--pale-blue);
+    }
+
+    main {
+        height: 697px;
+        width: 450px;
+    }
+
+    .card-image {
+        flex: 31.57%;
+    }
+
+    .card-details {
+        flex: 68.43%;
+        padding: 2.85em 3em;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    .mainDesc {
+        margin-top: 1em;
+        line-height: 1.65rem;
+    }
+
+    .secPlan {
+        margin-top: 1.2em;
+        padding: 1.5rem;
+    }
+
+    .secPlanMid {
+        row-gap: 0.38em;
+    }
+
+    .planPrice {
+        font-size: 1.025em;
+    }
+
+    .planBtn {
+        font-size: 0.895em;
+        font-weight: 700;
+        letter-spacing: -0.005em;
+    }
+
+    button {
+        font-weight: 900;
+    }
+
+    .btnProceed {
+        margin-top: 2.2em;
+    }
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    background: url(../images/illustration-hero.svg) no-repeat top center;
+    background-size: cover;
+    width: inherit;
+    border-radius: 1.3rem 1.3rem 0 0;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 0 0 1.3rem 1.3rem;
+    box-shadow: 0px 1rem 0.75em 0.25em hsl(224deg 23% 55% / 10%);
+}
+
+h1 {
+    color: var(--dark-blue);
+    margin: 0;
+    font-weight: 900;
+}
+
+p {
+    margin: 0;
+}
+
+.mainDesc {
+    color: var(--desaturated-blue);
+}
+
+.secPlan {
+    background-color: var(--very-pale-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.25em;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+
+.planIcon {
+    height: 3rem;
+    width: 3rem;
+}
+
+.secPlanMid {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.planName {
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.planPrice {
+    color: var(--desaturated-blue);
+}
+
+.planBtn {
+    color: var(--bright-blue);
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+button {
+    border: 0;
+}
+
+.btnProceed {
+    background-color: var(--bright-blue);
+    color: var(--pale-blue);
+    padding: 1em;
+    font-size: 0.95em;
+    border-radius: 0.75rem;
+    box-shadow: 0px 0.75rem 1em hsl(245deg 75% 52% / 20%);
+}
+
+.btnCancel {
+    background-color: inherit;
+    color: var(--desaturated-blue);
+    padding: 1px 0;
+    font-size: 0.95em;
+    margin-top: auto;
+}
+
+
+
+/* Active/Hover States */
+button, .planBtn {
+    cursor: pointer;
+}
+
+.planBtn:hover {
+    color: rgb(116, 108, 233);
+    text-decoration: none;
+}
+
+.btnProceed:hover {
+    background-color: rgb(116, 108, 233);
+}
+
+.btnCancel:hover {
+    color: var(--dark-blue);
+}
+
+
+
+/* Attribution/Footer section */
+.attribution { 
+    font-size: 0.73em; 
+    background-color: var(--pale-blue);
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+    width: 100vw;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
