@@ -27,6 +27,41 @@
 
 
 
+h1 {
+    color: var(--dark-blue);
+}
+
+.mainDesc {
+    color: var(--desaturated-blue);
+}
+
+.secPlan {
+    background-color: var(--very-pale-blue);
+}
+
+.planName {
+    color: var(--dark-blue);
+}
+
+.planPrice {
+    color: var(--desaturated-blue);
+}
+
+.planBtn {
+    color: var(--bright-blue);
+}
+
+.btnProceed {
+    background-color: var(--bright-blue);
+    color: white;
+}
+
+.btnCancel {
+    color: var(--desaturated-blue);
+}
+
+
+
 /* Attribution/Footer section */
 .attribution { 
     font-size: 11px; 
