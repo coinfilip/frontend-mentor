@@ -249,6 +249,26 @@ button {
 
 
 
+/* Active/Hover States */
+button, .planBtn {
+    cursor: pointer;
+}
+
+.planBtn:hover {
+    color: rgb(116, 108, 233);
+    text-decoration: none;
+}
+
+.btnProceed:hover {
+    background-color: rgb(116, 108, 233);
+}
+
+.btnCancel:hover {
+    color: var(--dark-blue);
+}
+
+
+
 /* Attribution/Footer section */
 .attribution { 
     font-size: 0.73em; 
