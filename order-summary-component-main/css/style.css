@@ -175,6 +175,7 @@ main {
     background-color: white;
     text-align: center;
     border-radius: 0 0 1.3rem 1.3rem;
+    box-shadow: 0px 1rem 0.75em 0.25em hsl(224deg 23% 55% / 10%);
 }
 
 h1 {
@@ -237,6 +238,7 @@ button {
     padding: 1em;
     font-size: 0.95em;
     border-radius: 0.75rem;
+    box-shadow: 0px 0.75rem 1em hsl(245deg 75% 52% / 20%);
 }
 
 .btnCancel {
