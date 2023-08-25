@@ -1,5 +1,9 @@
 # Challenges from Frontend Mentor
 
+### Order summary card component
+
+[Solution](https://github.com/coinfilip/frontend-mentor/tree/main/order-summary-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/order-summary-component-main/)
+
 ### Stats preview card component
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/stats-preview-card-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/stats-preview-card-component-main/)
