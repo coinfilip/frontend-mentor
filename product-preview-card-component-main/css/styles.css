@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--cream);
 }
 
 
@@ -69,6 +70,37 @@ body {
         flex: 50%;
         padding: 2.15rem;
     }
+}
+
+
+
+.card-details {
+    background-color: var(--white);
+}
+
+p.itemCat {
+    color: var(--dark-grayish-blue);
+}
+
+h1.itemName {
+    color: var(--very-dark-blue);
+}
+
+p.mainDesc {
+    color: var(--dark-grayish-blue);
+}
+
+p.newPrice {
+    color: var(--dark-cyan);
+}
+
+p.oldPrice {
+    color: var(--dark-grayish-blue);
+}
+
+button.btnAddCart {
+    background-color: var(--dark-cyan);
+    color: var(--white);
 }
 
 
