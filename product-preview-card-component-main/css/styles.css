@@ -188,6 +188,14 @@ button.btnAddCart {
 
 
 
+/* Hover State */
+button.btnAddCart:hover {
+    cursor: pointer;
+    background-color: rgb(36, 63, 50);
+}
+
+
+
 /* Attribution/Footer section */
 
 .attribution { 
