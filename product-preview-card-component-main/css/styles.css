@@ -28,14 +28,16 @@ body {
 
 
 
+/* Mobile-only Rules */
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 667px;
+        height: 100vh;
     }
 
     main {
         width: 343px;
-        height: 610px;
+        height: 611px;
         display: flex;
         flex-direction: column;
     }
@@ -49,14 +51,36 @@ body {
 
     .card-details {
         flex: 60.7%;
-        padding: 1.75rem;
+        padding: 1.725rem;
         border-radius: 0 0 0.75rem 0.75rem;
+    }
+
+    p.itemCat {
+        font-size: 0.865rem;
+    }
+
+    h1.itemName {
+        font-size: 2.285rem;
+        margin-top: 0.925rem;
+    }
+
+    p.mainDesc {
+        line-height: 1.6425rem;
+        margin-top: 1.175rem;
+    }
+
+    div.secPrice {
+        margin: auto 0 1.15rem 0;
     }
 }
 
+
+
+/* Desktop-only Rules */
 @media (min-width: 1440px) {
     body {
         min-height: 800px;
+        height: 100vh;
     }
 
     main {
@@ -85,21 +109,26 @@ body {
 
     h1.itemName {
         font-size: 2.275rem;
-        line-height: 2.275rem;
         margin-top: 1.5rem;
     }
 
     p.mainDesc {
+        line-height: 1.6385rem;
         margin-top: 1.75rem;
     }
 
     div.secPrice {
         margin: 1.785rem 0;
     }
+
+    button.btnAddCart {
+        margin-top: auto;
+    }
 }
 
 
 
+/* Rules for both Desktop and Mobile */
 .card-details {
     background-color: var(--white);
     display: flex;
@@ -116,12 +145,12 @@ p.itemCat {
 h1.itemName {
     color: var(--very-dark-blue);
     font-family: 'Fraunces', serif;
+    line-height: 2.275rem;
 }
 
 p.mainDesc {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.6385rem;
 }
 
 .secPrice {
@@ -154,7 +183,6 @@ button.btnAddCart {
     gap: 0.75rem;
     justify-content: center;
     font-size: 1.025rem;
-    margin-top: auto;
     border-radius: 0.5rem;
 }
 
@@ -165,7 +193,7 @@ button.btnAddCart {
 .attribution { 
     font-size: 0.785rem; 
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--white);
+    background-color: var(--cream);
     text-align: center; 
     position: fixed;
     bottom: 0;
