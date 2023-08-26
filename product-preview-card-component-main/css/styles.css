@@ -78,18 +78,39 @@ body {
         padding: 2.285rem 2.25rem;
         border-radius: 0 0.75rem 0.75rem 0;
     }
+
+    p.itemCat {
+        font-size: 0.875rem;
+    }
+
+    h1.itemName {
+        font-size: 2.275rem;
+        line-height: 2.275rem;
+        margin-top: 1.5rem;
+    }
+
+    p.mainDesc {
+        margin-top: 1.75rem;
+    }
+
+    div.secPrice {
+        margin: 1.785rem 0;
+    }
 }
 
 
 
 .card-details {
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
 }
 
 p.itemCat {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 0.35rem;
 }
 
 h1.itemName {
@@ -100,22 +121,41 @@ h1.itemName {
 p.mainDesc {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.6385rem;
+}
+
+.secPrice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.45rem;
 }
 
 p.newPrice {
     color: var(--dark-cyan);
     font-family: 'Fraunces', serif;
+    font-size: 2.275rem;
 }
 
 p.oldPrice {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: 0.925rem;
 }
 
 button.btnAddCart {
     color: var(--white);
     background-color: var(--dark-cyan);
     font-family: 'Montserrat', sans-serif;
+    border: 0;
+    padding: 1.085rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    font-size: 1.025rem;
+    margin-top: auto;
+    border-radius: 0.5rem;
 }
 
 
