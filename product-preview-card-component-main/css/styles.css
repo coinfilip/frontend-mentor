@@ -10,12 +10,12 @@
 
     /* Fonts */
     font-size: 14px;
-    /*  font-family: 'Fraunces', serif;
-        font-family: 'Montserrat', sans-serif; */
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -75,7 +75,7 @@ body {
 
     .card-details {
         flex: 50%;
-        padding: 2.15rem;
+        padding: 2.285rem 2.25rem;
         border-radius: 0 0.75rem 0.75rem 0;
     }
 }
@@ -88,27 +88,34 @@ body {
 
 p.itemCat {
     color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 h1.itemName {
     color: var(--very-dark-blue);
+    font-family: 'Fraunces', serif;
 }
 
 p.mainDesc {
     color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
 }
 
 p.newPrice {
     color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
 }
 
 p.oldPrice {
     color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
 }
 
 button.btnAddCart {
-    background-color: var(--dark-cyan);
     color: var(--white);
+    background-color: var(--dark-cyan);
+    font-family: 'Montserrat', sans-serif;
 }
 
 
