@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    /* Primary */
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+    /* Fonts */
+    font-size: 16px;
+    /*  font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif; */
+}
+
+
+
 /* Attribution/Footer section */
 
 .attribution { 
