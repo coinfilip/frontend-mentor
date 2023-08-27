@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/product-preview-card-component-main)
-- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/product-preview-card-component-main/)
+- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/product-preview-card-component-main)
+- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/newbie/product-preview-card-component-main/)
 
 ## My process
 

@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/stats-preview-card-component-main)
-- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/stats-preview-card-component-main/)
+- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/stats-preview-card-component-main)
+- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/newbie/stats-preview-card-component-main/)
 
 ## My process
 

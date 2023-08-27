@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/order-summary-component-main)
-- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/order-summary-component-main/)
+- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/order-summary-component-main)
+- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/newbie/order-summary-component-main/)
 
 ## My process
 
