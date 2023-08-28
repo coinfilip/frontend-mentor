@@ -178,26 +178,10 @@ button.btnRegister {
     border: 0;
     background-color: white;
     color: var(--violet);
+    box-shadow: 0px 0.17rem 0.27rem 0.27rem rgb(75,60,123);
 }
 
 footer {
     display: flex;
     flex-direction: row;
-}
-
-/* Attribution/Footer section */
-
-.attribution { 
-    font-size: 0.685rem; 
-    text-align: center; 
-    font-family: 'Poppins', sans-serif;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 5px 0;
-    width: 100vw;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
 }
