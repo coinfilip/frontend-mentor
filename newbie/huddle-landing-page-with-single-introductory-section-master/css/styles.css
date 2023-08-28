@@ -73,7 +73,9 @@ body {
         font-size: 1.33rem;
         padding: 1.17rem 0;
         border-radius: 2.5rem;
-        width: 22.22rem;
+        width: 100%;
+        max-width: 22.22rem;
+
     }
 
     footer {
