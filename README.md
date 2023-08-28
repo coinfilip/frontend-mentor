@@ -1,5 +1,9 @@
 # Challenges from Frontend Mentor
 
+### Huddle landing page with single introductory section
+
+[Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/huddle-landing-page-with-single-introductory-section-master) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/huddle-landing-page-with-single-introductory-section-master)
+
 ### Product preview card component
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/product-preview-card-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/product-preview-card-component-main/)
