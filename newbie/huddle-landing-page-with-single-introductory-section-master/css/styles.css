@@ -82,7 +82,7 @@ body {
         margin: auto 0 64px;
     }
 
-    img.icon-socials {
+    .icon-socials {
         height: 3rem;
         width: 3rem;
         border: 1.5px solid white;
@@ -151,7 +151,7 @@ body {
         margin-top: 20px;
     }
 
-    img.icon-socials {
+    .icon-socials {
         height: 40px;
         width: 40px;
         border: 1px solid white;
@@ -184,4 +184,21 @@ button.btnRegister {
 footer {
     display: flex;
     flex-direction: row;
+}
+
+.icon-socials {
+    fill: white;
+}
+
+/* Hover state */
+button.btnRegister:hover {
+    background-color: var(--soft-magenta);
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+
+.icon-socials:hover {
+    border-color: var(--soft-magenta);
+    fill: var(--soft-magenta);
+    cursor: pointer;
 }
