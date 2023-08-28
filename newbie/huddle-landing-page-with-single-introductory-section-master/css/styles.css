@@ -19,7 +19,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,21 +35,23 @@ body {
     }
 
     header {
-        width: 615px;
-        margin: 64px 67.5px 0;
+        width: 82%;
+        max-width: 615px;
+        margin-top: 64px;
     }
 
     img.logo {
-        height: 62.25px;
+        height: 3.45rem;
         width: auto;
     }
 
     main {
+        width: 80.4%;
+        max-width: 603px;
         display: flex;
         flex-direction: column;
-        margin: 116.25px 73.5px 0;
+        margin-top: 15.5%;
         text-align: center;
-        width: 603px;
     }
 
     section.main-details {
@@ -57,33 +59,34 @@ body {
     }
 
     h1.mainHeading {
-        font-size: 47.5px;
+        font-size: 2.638rem;
     }
 
     p.mainDesc {
-        font-size: 32px;
-        margin-top: 28px;
-        line-height: 48px;
+        font-size: 1.78rem;
+        margin-top: 1.55rem;
+        line-height: 2.67rem;
     }
 
     button.btnRegister {
-        margin-top: 48px;
-        font-size: 24px;
-        padding: 22px 0;
-        border-radius: 100px;
-        width: 400px;
+        margin: 2.67rem 0;
+        font-size: 1.33rem;
+        padding: 1.17rem 0;
+        border-radius: 2.5rem;
+        width: 22.22rem;
     }
 
     footer {
         gap: 21px;
-        margin: 130px 0 0;
+        padding-bottom: 16px;
+        margin: auto 0 64px;
     }
 
     img.icon-socials {
-        height: 54px;
-        width: 54px;
+        height: 3rem;
+        width: 3rem;
         border: 1.5px solid white;
-        padding: 11px;
+        padding: 0.61rem;
         border-radius: 2em;
     }
 }
@@ -99,21 +102,23 @@ body {
     }
 
     header {
-        width: 1300px;
-        margin: 53.75px 70px 0;
+        width: 90.27%;
+        min-width: 1300px;
+        margin-top: 12.75px;
     }
 
     img.logo {
-        height: 52.5px;
+        height: 2.917rem;
         width: auto;
     }
 
     main {
-        width: 1294px;
+        width: 89.86%;
+        min-width: 1294px;
         margin-top: 82px;
         display: flex;
         flex-direction: row;
-        gap: 53px;
+        gap: 2.94rem;
     }
 
     section.main-details {
@@ -122,24 +127,25 @@ body {
     }
 
     h1.mainHeading {
-        font-size: 39.5px;
+        font-size: 2.194rem;
     }
 
     p.mainDesc {
-        font-size: 18px;
+        font-size: 1rem;
         margin-top: 20px;
-        line-height: 27.25px;
+        line-height: 1.5138rem;
     }
 
     button.btnRegister {
         margin-top: 24px;
-        font-size: 18px;
+        font-size: 1rem;
         padding: 12.5px 63.75px 15.5px;
-        border-radius: 50px;
+        border-radius: 2rem;
     }
 
     footer {
-        width: 1280px;
+        width: 88.89%;
+        min-width: 1280px;
         justify-content: flex-end;
         gap: 16px;
         margin-top: 20px;
