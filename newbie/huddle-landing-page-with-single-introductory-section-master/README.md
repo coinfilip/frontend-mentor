@@ -1,92 +1,100 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Frontend Mentor - Huddle landing page with single introductory section solution
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this landing page from the designs provided in the starter code.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to: 
+Users should be able to:
 
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./Screenshot.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Solution URL: [Github](https://coinfilip.github.io/frontend-mentor/newbie/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Github Pages](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/huddle-landing-page-with-single-introductory-section-master)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## My process
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Built with
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [Font Awesome](https://fontawesome.com/) - For icons
 
-## Building your project
+### What I learned
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+This is my first time to handle a challenge that is not a component (like the previous ones). And with first times, another set of new roadblocks are encountered. 
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+First is the structure, and second are the icons. 
 
-## Deploying your project
+For this specific challenge, there are 3 main containers created inside **body**. A ```header``` (for the logo), ```main``` (for mockups, text + buttons) and ```footer```(for social media icons).
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+Almost tried and went the usual way of using one main container inside **body** but end up on the set up above.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+On the other hand, icons are quite complicated to handle. With the exception of the last one, almost all of the font icon libraries recommended by Frontend Mentor to use require either a log-in or a monthly subscription, to which I do not desire to use. So I ended up using the offline way, but the journey's not quite straightforward. 
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+First, I tried to download the SVGs from Font Awesome and include it to the footer section using img. The challenge with this method is the changing of color of those images when a cursor hovers over the element. So, tried to search for a solution on that roadblock until I found another way to include the icons, but not using img elements. 
 
-## Create a custom `README.md`
+The second and currently used way to include icons is to copy the code inside the SVG file and paste it inside the html file. 
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+```html
+<svg class="icon-socials" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Then you can reference it on the CSS file to manipulate the color on your liking, either by using the ```svg``` selector or by another identifier that you'll define on the element.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+```css
+.icon-socials {
+    fill: white;
+}
+```
 
-## Submitting your solution
+Lastly, instead of using ```<link>``` tags on html to include external fonts, I tried the ```@import``` css method for this challenge. Although both does the same thing, one thing I noticed is the way DevTools handles these two. When defining font family values on DevTools, Chrome might not recognize the fonts added thru the ```@import``` css method especially when you add rules directly to the html file/inspector stylesheet. 
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+```css
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+```
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Continued development
 
-## Sharing your solution
+Refactoring code is hard and head-scratching. Substituting values from pixels to relative sizes. But I guess it gets better (or worse) as I gain more experience over time. 
 
-There are multiple places you can share your solution:
+Also, I hope I can get myself to use those kits from Font Awesome in the future challenges. My reason for not using it this time is to avoid having dependencies to a tool that may change in the future and have complications with my previous code.
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### Useful resources
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+- [Resize image proportionally with CSS | GeeksforGeeks](https://www.geeksforgeeks.org/resize-image-proportionally-with-css/) - This helped me adopt the ```width``` and ```max-width``` property over the 3 main containers inside body, and also using *auto* as value for ```width``` if a value was set on the ```height``` for an image element like logo.
+- [Change Color of SVG on Hover | CSS Tricks](https://css-tricks.com/change-color-of-svg-on-hover/#aa-inline-svg) - This led me to ditch the img and use svg to include icons on the footer section. *Guess that will also be my favorite way to add SVGs*
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+## Author
 
-## Got feedback for us?
+- Website - [Github Profile](https://github.com/coinfilip)
+- Frontend Mentor - [@coinfilip](https://www.frontendmentor.io/profile/coinfilip)
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+## Acknowledgments
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- The Odin Project
+- those behind the sites cited in Useful resources section 
+- Frontend Mentor for the opportunity to take on this challenge
