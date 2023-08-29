@@ -20,6 +20,9 @@
 
 body {
     background-color: var(--dark-cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -29,6 +32,11 @@ body {
     body {
         min-height: 667px;
     }
+
+    main {
+        width: 325px;
+        height: 375px;
+    }
 }
 
 
@@ -37,6 +45,11 @@ body {
 @media (min-width: 1440px) {
     body {
         min-height: 720px;
+    }
+
+    main {
+        width: 350px;
+        height: 375px;
     }
 }
 
