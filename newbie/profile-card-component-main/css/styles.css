@@ -19,7 +19,6 @@
 }
 
 body {
-    background-color: var(--dark-cyan);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +30,9 @@ body {
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 667px;
+        height: 100vh;
+        background: url(../images/bg-pattern-top.svg) no-repeat 125% 191%, url(../images/bg-pattern-bottom.svg) no-repeat -26% -92%;
+        background-color: var(--dark-cyan);
     }
 
     main {
@@ -53,6 +55,9 @@ body {
 @media (min-width: 1440px) {
     body {
         min-height: 720px;
+        height: 100vh;
+        background: url(../images/bg-pattern-top.svg) no-repeat -62% 197%, url(../images/bg-pattern-bottom.svg) no-repeat 150% -145%;
+        background-color: var(--dark-cyan);
     }
 
     main {
