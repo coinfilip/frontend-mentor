@@ -18,6 +18,28 @@
     padding: 0;
 }
 
+body {
+    background-color: var(--dark-cyan);
+}
+
+
+
+/* for Mobile sizes */
+@media (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 667px;
+    }
+}
+
+
+
+/* for Desktop sizes */
+@media (min-width: 1440px) {
+    body {
+        min-height: 720px;
+    }
+}
+
 
 
 /* Attribution section */
