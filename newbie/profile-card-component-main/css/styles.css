@@ -103,7 +103,7 @@ img.profile-picture {
 section.account {
     width: 100%;
     text-align: center;
-    margin: 19px 0 25px;
+    margin: 1.0556rem 0 1.3889rem;
 }
 
 h1.account-name {
@@ -115,13 +115,13 @@ h1.account-name {
 span.age {
     color: var(--dark-grayish-blue);
     font-weight: 400;
-    margin-left: 5px;
+    margin-left: 0.27rem;
 }
 
 p.account-place {
-    font-size: 14px;
+    font-size: 0.77778rem;
     color: var(--dark-gray);
-    margin-top: 8px;
+    margin-top: 0.44445rem;
 }
 
 section.stat {
@@ -156,14 +156,16 @@ p.stat-item-label {
 
 /* Attribution section */
 .attribution { 
+    background-color: var(--dark-cyan);
+    color: white;
     font-size: 0.61rem; 
     text-align: center; 
     position: fixed;
     bottom: 0;
-    padding: 5px 0;
+    padding: 0.27rem 0;
     width: 100vw;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: inherit; 
 }
