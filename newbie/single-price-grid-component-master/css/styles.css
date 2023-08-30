@@ -20,6 +20,64 @@
 
 
 
+body {
+    background-color: var(--light-gray);
+}
+
+section.secJoin {
+    background-color: white;
+}
+
+h1.joinHeading {
+    color: var(--cyan);
+}
+
+h2.joinMoneyBack {
+    color: var(--bright-yellow);
+}
+
+p.joinDesc {
+    color: var(--grayish-blue);
+}
+
+section.secMonthly {
+    background-color: var(--cyan);}
+
+h2.monthlyHeading {
+    color: white;
+}
+
+button.monthlyBtn {
+    background-color: var(--bright-yellow);
+    color: white;
+    border: 0;
+}
+
+p.monthlyPrice {
+    color: rgb(151 222 222);
+}
+
+span.priceFigure {
+    color: white;
+}
+
+p.monthlyDesc {
+    color: white;
+}
+
+section.secWhy {
+    background-color: rgb(107 188 188);}
+
+h2.whyHeading {
+    color: white;
+}
+
+p.whyItem {
+    color: rgb(184, 247, 249);
+}
+
+
+
 /* Attribution section */
 
 .attribution { 
