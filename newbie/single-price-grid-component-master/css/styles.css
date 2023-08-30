@@ -20,8 +20,37 @@
 
 
 
+@media (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 870px;
+    }
+    
+    main {
+        width: 311px;
+        height: 726px;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    body {
+        min-height: 800px;
+    }
+    
+    main {
+        width: 635px;
+        height: 475px;
+    }
+}
+
+
+
 body {
     background-color: var(--light-gray);
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 section.secJoin {
@@ -79,10 +108,13 @@ p.whyItem {
 
 
 /* Attribution section */
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
 }
 
 .attribution a { 
