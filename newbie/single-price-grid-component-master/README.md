@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I noticed two things that I learned while doing this challenge. 
+There are two things that I learned while doing this challenge. 
 
 First is using Grid. My knowledge on the matter is kind of rusty at the point of starting this challenge, so spent some time watching and reading refreshers to be oriented on using the CSS layout. 
 
@@ -56,12 +56,17 @@ grid-template-columns: repeat(2, 1fr);
 grid-template-rows: 45.47% 54.53%;
 ```
 
+First line defines two columns of the equal length, while the second one defines two rows of one that is 45.47% of the container and the other covering 54.53% of the same container.
+
+
 And this one on the other hand, is for mobile. 
 
 ```css
 grid-template-columns: 1fr;
 grid-template-rows: 267px 228px 227px;
 ```
+
+First line defines only one column, and the second one defines 3 rows with varying sizes / height values.
 
 Another one is the extra margin space on mobile design that I haven't noticed until I scroll back down to work on the last section. It was fixed by using the ```margin-bottom``` property on main element.
 
@@ -72,7 +77,7 @@ This is my first time in a while on using Grid, so would like to have this inclu
 ### Useful resources
 
 - [A Complete Guide to CSS Grid | CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) - A great resource to quickly browse the properties of grid.
-- [Grids | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids#creating_your_grid_in_css) - If you're tired or can't comprehend a lot of words from the previous resource, you can watch the video on this page from Mozilla Developer Network.
+- [Grids | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids#creating_your_grid_in_css) - If you're tired or can't comprehend a lot of words from the previous resource and just wanted a refresher/good starter, you can watch the video on this page from Mozilla Developer Network.
 
 ## Author
 
