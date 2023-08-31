@@ -24,13 +24,15 @@
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 870px;
+        height: 100vh;
     }
     
     main {
         width: 311px;
         height: 726px;
         grid-template-columns: 1fr;
-        grid-template-rows: 36.777% 31.405% 31.818%;
+        grid-template-rows: 267px 228px 227px;
+        padding-bottom: 4px;
     }
 
     section.secJoin {
@@ -67,6 +69,7 @@
 
     section.secWhy {
         border-radius: 0 0 5px 5px;
+        padding: 25px 24px;
     }
 }
 
@@ -121,6 +124,7 @@
 
     section.secWhy {
         border-radius: 0 0 8px 0;
+        padding: 41px 40px 42px 40px;
     }
 }
 
@@ -203,7 +207,6 @@ section.secWhy {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 41px 40px 42px 40px;
 }
 
 h2.whyHeading {
