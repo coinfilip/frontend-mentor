@@ -102,25 +102,42 @@ section.secMonthly {
     background-color: var(--cyan);}
 
 h2.monthlyHeading {
-    color: white;
+    font-size: 17.65px;
+    color: var(--light-gray);
+    margin-top: 1px;
+}
+
+p.monthlyPrice {
+    color: rgb(151 222 222);
+    margin-top: 17px;
+    margin-left: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 15.6px;
+}
+
+span.priceFigure {
+    font-size: 32.25px;
+    font-weight: 500;
+    color: var(--light-gray);
+}
+
+p.monthlyDesc {
+    color: var(--light-gray);
+    margin-top: 7.5px;
+    font-size: 15.65px;
 }
 
 button.monthlyBtn {
     background-color: var(--bright-yellow);
     color: white;
     border: 0;
-}
-
-p.monthlyPrice {
-    color: rgb(151 222 222);
-}
-
-span.priceFigure {
-    color: white;
-}
-
-p.monthlyDesc {
-    color: white;
+    margin-top: 30px;
+    padding: 15px 0;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 section.secWhy {
