@@ -29,21 +29,21 @@
     main {
         width: 311px;
         height: 726px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 36.777% 31.405% 31.818%;
     }
 
     section.secJoin {
         border-radius: 5px 5px 0 0;
-        padding: 24px;
-        height: 267px;
+        padding: 28px 24px 31.5px;
     }
 
     h1.joinHeading {
         font-size: 19.6px;
-        margin-top: 4px;
     }
 
     h2.joinMoneyBack {
-        margin-top: 24px;
+        margin: 15px 0 7.5px;
         font-size: 14.65px;
         line-height: 20px;
     }
@@ -51,11 +51,18 @@
     p.joinDesc {
         font-size: 13.7px;
         line-height: 26px;
-        margin-top: 16.5px;
     }
 
     section.secMonthly {
-        height: 228px;
+        padding: 25px 24px 24px;
+    }
+
+    p.monthlyDesc {
+        margin: 1px 0 23.5px;
+    }
+
+    button.monthlyBtn {
+        padding: 14.5px 0;
     }
 
     section.secWhy {
@@ -74,7 +81,6 @@
     main {
         width: 635px;
         height: 475px;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 45.47% 54.53%;
     }
@@ -102,6 +108,15 @@
 
     section.secMonthly {
         border-radius: 0 0 0 8px;
+        padding: 41px 40px 38.5px;
+    }
+
+    p.monthlyDesc {
+        margin: 1px 0 23px;
+    }
+
+    button.monthlyBtn {
+        padding: 15px 0;
     }
 
     section.secWhy {
@@ -116,6 +131,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main {
+    display: grid;
 }
 
 section.secJoin {
@@ -142,7 +161,6 @@ section.secMonthly {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 41px 40px 38.5px;
 }
 
 h2.monthlyHeading {
@@ -163,13 +181,11 @@ p.monthlyPrice {
 span.priceFigure {
     font-size: 32.25px;
     font-weight: 500;
-    color: var(--light-gray);
+    color: white;
 }
 
 p.monthlyDesc {
     color: var(--light-gray);
-    margin-bottom: 23px;
-    padding-top: 1px;
     font-size: 15.65px;
 }
 
@@ -177,9 +193,7 @@ button.monthlyBtn {
     background-color: var(--bright-yellow);
     color: white;
     border: 0;
-    padding: 15px 0;
     font-size: 16px;
-    width: 100%;
     border-radius: 5px;
 }
 
