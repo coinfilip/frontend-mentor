@@ -145,14 +145,28 @@ button.monthlyBtn {
 }
 
 section.secWhy {
-    background-color: rgb(107 188 188);}
-
-h2.whyHeading {
-    color: white;
+    background-color: rgb(107 188 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 41px 40px 42px 40px;
 }
 
-p.whyItem {
+h2.whyHeading {
+    font-size: 17.65px;
+    color: var(--light-gray);
+}
+
+ul.whyList {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+li.whyItem {
     color: rgb(184, 247, 249);
+    list-style-type: none;
+    font-size: 13.75px;
 }
 
 
