@@ -20,6 +20,7 @@
 
 
 
+/* Mobile size */
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 870px;
@@ -32,6 +33,29 @@
 
     section.secJoin {
         border-radius: 5px 5px 0 0;
+        padding: 24px;
+        height: 267px;
+    }
+
+    h1.joinHeading {
+        font-size: 19.6px;
+        margin-top: 4px;
+    }
+
+    h2.joinMoneyBack {
+        margin-top: 24px;
+        font-size: 14.65px;
+        line-height: 20px;
+    }
+
+    p.joinDesc {
+        font-size: 13.7px;
+        line-height: 26px;
+        margin-top: 16.5px;
+    }
+
+    section.secMonthly {
+        height: 228px;
     }
 
     section.secWhy {
@@ -41,6 +65,7 @@
 
 
 
+/* Desktop size */
 @media (min-width: 1440px) {
     body {
         min-height: 800px;
