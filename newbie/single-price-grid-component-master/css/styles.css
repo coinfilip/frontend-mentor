@@ -28,49 +28,49 @@
     }
     
     main {
-        width: 311px;
-        height: 722px;
+        width: 19.4375rem;
+        height: 45.125rem;
         grid-template-columns: 1fr;
-        grid-template-rows: 267px 228px 227px;
-        margin-bottom: 4px;
-        border-radius: 5px;
+        grid-template-rows: 36.98% 31.58% 31.44%;
+        margin-bottom: 0.25rem;
+        border-radius: 0.3125rem;
     }
 
     section.secJoin {
-        border-radius: 5px 5px 0 0;
-        padding: 28px 24px 31.5px;
+        border-radius: 0.3125rem 0.3125rem 0 0;
+        padding: 1.75rem 1.5rem 1.96875rem;
     }
 
     h1.joinHeading {
-        font-size: 19.6px;
+        font-size: 1.225rem;
     }
 
     h2.joinMoneyBack {
-        margin: 15px 0 7.5px;
-        font-size: 14.65px;
-        line-height: 20px;
+        margin: 0.9375rem 0 0.46875rem;
+        font-size: 0.915625rem;
+        line-height: 1.25rem;
     }
 
     p.joinDesc {
-        font-size: 13.7px;
-        line-height: 26px;
+        font-size: 0.85625rem;
+        line-height: 1.625rem;
     }
 
     section.secMonthly {
-        padding: 25px 24px 24px;
+        padding: 1.5625rem 1.5rem 1.5rem;
     }
 
     p.monthlyDesc {
-        margin: 1px 0 23.5px;
+        margin: 0.0625rem 0 1.46875rem;
     }
 
     button.monthlyBtn {
-        padding: 12.5px 0;
+        padding: 0.78125rem 0;
     }
 
     section.secWhy {
-        border-radius: 0 0 5px 5px;
-        padding: 25px 24px;
+        border-radius: 0 0 0.3125rem 0.3125rem;
+        padding: 1.5625rem 1.5rem;
     }
 }
 
@@ -79,55 +79,55 @@
 /* Desktop size */
 @media (min-width: 768px) {
     body {
-        min-height: 800px;
+        min-height: 50rem;
         height: 100vh;
     }
     
     main {
-        width: 635px;
-        height: 475px;
+        width: 39.6875rem;
+        height: 29.6875rem;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 45.47% 54.53%;
-        border-radius: 8px;
+        border-radius: 0.5rem;
     }
 
     section.secJoin {
         grid-column: span 2;
-        border-radius: 8px 8px 0 0;
-        padding: 40px;
+        border-radius: 0.5rem 0.5rem 0 0;
+        padding: 2.5rem;
     }
 
     h1.joinHeading {
-        font-size: 23.5px;
-        margin-top: 0.5px;
+        font-size: 1.46875rem;
+        margin-top: 0.03125rem;
     }
 
     h2.joinMoneyBack {
-        margin-top: 15px;
-        font-size: 17.6px;
+        margin-top: 0.9375rem;
+        font-size: 1.1rem;
     }
 
     p.joinDesc {
-        font-size: 15.65px;
-        line-height: 26px;
+        font-size: 0.978125rem;
+        line-height: 1.625rem;
     }
 
     section.secMonthly {
         border-radius: 0 0 0 8px;
-        padding: 41px 40px 38.5px;
+        padding: 2.5625rem 2.5rem 2.40625rem;
     }
 
     p.monthlyDesc {
-        margin: 1px 0 23px;
+        margin: 0.0625rem 0 1.4375rem;
     }
 
     button.monthlyBtn {
-        padding: 13px 0;
+        padding: 0.8125rem 0;
     }
 
     section.secWhy {
-        border-radius: 0 0 8px 0;
-        padding: 41px 40px 42px 40px;
+        border-radius: 0 0 0.5rem 0;
+        padding: 2.5625rem 2.5rem 2.625rem 2.5rem;
     }
 }
 
@@ -142,7 +142,7 @@ body {
 
 main {
     display: grid;
-    box-shadow: 0 15px 30px hsl(218deg 22% 67% / 40%);
+    box-shadow: 0 0.9375rem 1.875rem hsl(218deg 22% 67% / 40%);
 }
 
 section.secJoin {
@@ -172,38 +172,38 @@ section.secMonthly {
 }
 
 h2.monthlyHeading {
-    font-size: 17.65px;
+    font-size: 1.103125rem;
     color: var(--light-gray);
 }
 
 p.monthlyPrice {
     color: rgb(151 222 222);
-    margin-top: 10px;
-    margin-left: 0.5px;
+    margin-top: 0.625rem;
+    margin-left: 0.03125rem;
     display: flex;
     align-items: center;
-    gap: 13px;
-    font-size: 15.6px;
+    gap: 0.8125rem;
+    font-size: 0.975rem;
 }
 
 span.priceFigure {
-    font-size: 32.25px;
+    font-size: 2.015625rem;
     font-weight: 500;
     color: white;
 }
 
 p.monthlyDesc {
     color: var(--light-gray);
-    font-size: 15.65px;
+    font-size: 0.978125rem;
 }
 
 button.monthlyBtn {
     background-color: var(--bright-yellow);
     color: white;
-    border: 2px solid var(--bright-yellow);
-    font-size: 16px;
+    border: 0.125rem solid var(--bright-yellow);
+    font-size: 1rem;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0.625rem 0.625rem rgb(0 0 0 / 10%);
 }
 
 section.secWhy {
@@ -215,7 +215,7 @@ section.secWhy {
 }
 
 h2.whyHeading {
-    font-size: 17.65px;
+    font-size: 1.103125rem;
     color: var(--light-gray);
 }
 
@@ -228,7 +228,7 @@ ul.whyList {
 li.whyItem {
     color: var(--light-gray);
     list-style-type: none;
-    font-size: 13.75px;
+    font-size: 0.859375rem;
 }
 
 
@@ -243,13 +243,13 @@ button.monthlyBtn:hover {
 
 /* Attribution section */
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.6875rem; 
     background-color: var(--light-gray);
     text-align: center; 
     position: fixed;
     bottom: 0;
     right: 0;
-    padding: 5px 0;
+    padding: 0.3125rem 0;
     width: 100vw;
 }
 
