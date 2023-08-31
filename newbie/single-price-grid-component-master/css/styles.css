@@ -117,10 +117,12 @@ p.whyItem {
 /* Attribution section */
 .attribution { 
     font-size: 11px; 
+    background-color: var(--light-gray);
     text-align: center; 
     position: fixed;
     bottom: 0;
     right: 0;
+    padding: 5px 0;
     width: 100vw;
 }
 
