@@ -49,6 +49,26 @@
     section.secJoin {
         grid-column: span 2;
     }
+
+    section {
+        padding: 40px;
+    }
+
+    h1.joinHeading {
+        font-size: 23.5px;
+        margin-top: 0.5px;
+    }
+
+    h2.joinMoneyBack {
+        margin-top: 25px;
+        font-size: 17.6px;
+    }
+
+    p.joinDesc {
+        margin-top: 10.5px;
+        font-size: 15.65px;
+        line-height: 26px;
+    }
 }
 
 
