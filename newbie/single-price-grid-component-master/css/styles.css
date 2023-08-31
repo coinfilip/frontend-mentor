@@ -41,6 +41,13 @@
     main {
         width: 635px;
         height: 475px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 45.47% 54.53%;
+    }
+
+    section.secJoin {
+        grid-column: span 2;
     }
 }
 
@@ -48,8 +55,8 @@
 
 body {
     background-color: var(--light-gray);
-    display: grid;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
