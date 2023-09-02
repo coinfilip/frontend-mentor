@@ -56,8 +56,14 @@ p.topDesc {
 
 /* Attribution section */
 .attribution { 
-    font-size: 11px; 
+    background-color: var(--very-light-gray);
+    font-size: 0.733rem; 
+    padding: 0.33rem 0;
     text-align: center; 
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
 }
 
 .attribution a { 
