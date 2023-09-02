@@ -47,18 +47,22 @@
 
     .sup {
         grid-area: sup;
+        border-top: 4px solid var(--cyan);
     }
 
     .team {
         grid-area: team;
+        border-top: 4px solid var(--red);
     }
 
     .calc {
         grid-area: calc;
+        border-top: 4px solid var(--blue);
     }
 
     .karma {
         grid-area: karma;
+        border-top: 4px solid var(--orange);
     }
 }
 
@@ -95,6 +99,14 @@ p.topDesc {
 
 section.conItem {
     width: 350px;
+}
+
+h2.conHeading {
+    color: var(--very-dark-blue);
+}
+
+p.conDesc {
+    color: var(--grayish-blue);
 }
 
 
