@@ -23,6 +23,47 @@
 
 
 
+/* Mobile */
+@media (min-width: 375px) and (max-width: 1200px) {
+
+}
+
+
+
+/* Desktop */
+@media (min-width: 1201px) {
+    main.secContainer {
+        margin: 63.5px auto 0;
+        height: 530px;
+        width: 1110px;
+        display: grid;
+        grid-gap: 28px;
+        grid-template: 
+            ".   team     ."
+            "sup team  calc"
+            "sup karma calc"
+            ".   karma    .";
+    }
+
+    .sup {
+        grid-area: sup;
+    }
+
+    .team {
+        grid-area: team;
+    }
+
+    .calc {
+        grid-area: calc;
+    }
+
+    .karma {
+        grid-area: karma;
+    }
+}
+
+
+
 section.secTop {
     margin-top: 78px;
     text-align: center;
@@ -50,6 +91,10 @@ p.topDesc {
     font-size: 15.15px;
     line-height: 25.5px;
     width: 530px;
+}
+
+section.conItem {
+    width: 350px;
 }
 
 
