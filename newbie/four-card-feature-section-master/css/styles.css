@@ -23,6 +23,37 @@
 
 
 
+section.secTop {
+    margin-top: 78px;
+    text-align: center;
+}
+
+h2.topSubHeading {
+    font-weight: 200;
+    font-size: 36.475px;
+    color: var(--very-dark-blue);
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+h1.topHeading {
+    font-size: 36.475px;
+    color: var(--very-dark-blue);
+    line-height: 48px;
+}
+
+p.topDesc {
+    margin: 17.5px auto 0;
+    color: var(--grayish-blue);
+    font-size: 15.15px;
+    line-height: 25.5px;
+    width: 530px;
+}
+
+
+
 /* Attribution section */
 .attribution { 
     font-size: 11px; 
