@@ -101,9 +101,13 @@ p.topDesc {
 section.conItem {
     width: 350px;
     height: 250px;
+    background-color: white;
     padding: 26.7475px 32px;
     border-radius: 5px;
-    box-shadow: 0 5px 10px var(--grayish-blue);
+    box-shadow: 0 10px 15px rgb(218, 225, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h2.conHeading {
@@ -113,9 +117,17 @@ h2.conHeading {
 
 p.conDesc {
     color: var(--grayish-blue);
-    margin-top: 9px;
+    margin-top: 7.5px;
+    margin-bottom: auto;
     font-size: 13.15px;
-    line-height: 22.5px;
+    line-height: 23.5px;
+}
+
+img.conImg {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 6px;
+    align-self: flex-end;
 }
 
 
