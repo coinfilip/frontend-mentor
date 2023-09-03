@@ -32,8 +32,12 @@
 
 /* Desktop */
 @media (min-width: 1201px) {
+    body {
+        min-height: 850px;
+        height: 100vh;
+    }
     main.secContainer {
-        margin: 62.5px auto 0;
+        margin-bottom: 2.5px;
         height: 530px;
         width: 1110px;
         display: grid;
@@ -71,10 +75,14 @@
 
 body {
     background-color: var(--very-light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section.secTop {
-    margin-top: 78px;
+    margin-bottom: 62.5px;
     text-align: center;
 }
 
