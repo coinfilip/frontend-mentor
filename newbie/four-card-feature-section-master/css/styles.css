@@ -24,14 +24,14 @@
 
 
 /* Mobile */
-@media (min-width: 375px) and (max-width: 1200px) {
+@media (min-width: 375px) and (max-width: 1199px) {
     body {
         min-height: 1360px;
     }
 
     section.secTop {
         width: 311px;
-        margin: 83.5px 0 77.5px;
+        margin: 83.5px 0 74.5px;
     }
 
     h2.topSubHeading {
@@ -40,30 +40,66 @@
 
     h1.topHeading {
         font-size: 24.25px;
-        line-height: 36px;
+        margin-top: 1px;
     }
 
     p.topDesc {
-        margin: 16px auto 0;
-        font-size: 15.25px;
+        margin: 15px auto 0;
+        font-size: 15.175px;
         line-height: 25px;
+    }
+
+    main.secContainer {
+        width: 311px;
+    }
+
+    section.conItem {
+        height: 222px;
+        padding: 22.15px 28px;
+        margin-bottom: 25px;
+    }
+
+    h2.conHeading {
+        font-size: 19.9px;
+    }
+
+    p.conDesc {
+        margin-top: 3px;
+        margin-left: 1px;
+        font-size: 13.2px;
+        line-height: 23px;
+    }
+
+    img.conImg {
+        height: 57px;
+    }
+
+    section.conItem.sup {
+        margin-bottom: 25px;
+    }
+
+    section.conItem.team {
+        margin-bottom: 23px;
+    }
+
+    section.conItem.karma {
+        margin-bottom: 24px;
     }
 }
 
 
 
 /* Desktop */
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
     body {
         min-height: 850px;
-        height: 100vh;
     }
 
     section.secTop {
         margin-bottom: 62.5px;
     }
 
-    h2.topSubheading {
+    h2.topSubHeading {
         font-size: 36.475px;
     }
 
@@ -93,24 +129,29 @@
             ".   karma    .";
     }
 
-    .sup {
-        grid-area: sup;
-        border-top: 4px solid var(--cyan);
+    section.conItem {
+        width: 350px;
+        height: 250px;
+        padding: 26.7475px 32px;
     }
 
-    .team {
-        grid-area: team;
-        border-top: 4px solid var(--red);
+    .sup { grid-area: sup; }
+    .team { grid-area: team; }
+    .calc { grid-area: calc; }
+    .karma { grid-area: karma; }
+
+    h2.conHeading {
+        font-size: 20px;
     }
 
-    .calc {
-        grid-area: calc;
-        border-top: 4px solid var(--blue);
+    p.conDesc {
+        margin-top: 7.5px;
+        font-size: 13.15px;
+        line-height: 23.5px;
     }
 
-    .karma {
-        grid-area: karma;
-        border-top: 4px solid var(--orange);
+    img.conImg {
+        height: 64px;
     }
 }
 
@@ -118,6 +159,7 @@
 
 body {
     background-color: var(--very-light-gray);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -142,36 +184,45 @@ p.topDesc {
 }
 
 section.conItem {
-    width: 350px;
-    height: 250px;
     background-color: white;
-    padding: 26.7475px 32px;
-    border-radius: 5px;
     box-shadow: 0 10px 15px rgb(218, 225, 236);
+    border-radius: 5px 5px 7.5px 7.5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.sup {
+    border-top: 4px solid var(--cyan);
+}
+
+.team {
+    border-top: 4px solid var(--red);
+}
+
+.calc {
+    border-top: 4px solid var(--blue);
+}
+
+.karma {
+    border-top: 4px solid var(--orange);
+}
+
 h2.conHeading {
     color: var(--very-dark-blue);
-    font-size: 20px;
 }
 
 p.conDesc {
     color: var(--grayish-blue);
-    margin-top: 7.5px;
     margin-bottom: auto;
-    font-size: 13.15px;
-    line-height: 23.5px;
 }
 
 img.conImg {
-    height: 64px;
-    width: 64px;
+    width: auto;
     margin-bottom: 6px;
     align-self: flex-end;
 }
+
 
 
 
