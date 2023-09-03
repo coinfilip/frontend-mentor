@@ -33,11 +33,12 @@
 /* Desktop */
 @media (min-width: 1201px) {
     main.secContainer {
-        margin: 63.5px auto 0;
+        margin: 62.5px auto 0;
         height: 530px;
         width: 1110px;
         display: grid;
-        grid-gap: 28px;
+        grid-gap: 30px;
+        justify-items: center;
         grid-template: 
             ".   team     ."
             "sup team  calc"
@@ -68,6 +69,10 @@
 
 
 
+body {
+    background-color: var(--very-light-gray);
+}
+
 section.secTop {
     margin-top: 78px;
     text-align: center;
@@ -77,10 +82,6 @@ h2.topSubHeading {
     font-weight: 200;
     font-size: 36.475px;
     color: var(--very-dark-blue);
-}
-
-body {
-    background-color: var(--very-light-gray);
 }
 
 h1.topHeading {
@@ -99,14 +100,22 @@ p.topDesc {
 
 section.conItem {
     width: 350px;
+    height: 250px;
+    padding: 26.7475px 32px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px var(--grayish-blue);
 }
 
 h2.conHeading {
     color: var(--very-dark-blue);
+    font-size: 20px;
 }
 
 p.conDesc {
     color: var(--grayish-blue);
+    margin-top: 9px;
+    font-size: 13.15px;
+    line-height: 22.5px;
 }
 
 
