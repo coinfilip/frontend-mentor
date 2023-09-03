@@ -27,27 +27,26 @@
 @media (min-width: 375px) and (max-width: 1199px) {
     body {
         min-height: 1360px;
-        gap: 74.5px
+        gap: 4.966667rem;
     }
 
     section.secTop {
         width: 311px;
-        margin-top: 80px;
+        margin-top: 5.333333rem;
     }
 
-    h2.topSubHeading {
-        font-size: 24.25px;
+    .topHeading, .topSubHeading {
+        font-size: 1.61667rem;
     }
 
     h1.topHeading {
-        font-size: 24.25px;
-        margin-top: 1px;
+        margin-top: 0.0666667rem;
     }
 
     p.topDesc {
-        margin-top: 15px;
-        font-size: 15.175px;
-        line-height: 25px;
+        margin-top: 1rem;
+        font-size: 1.011667rem;
+        line-height: 1.66667rem;
     }
 
     main.secContainer {
@@ -57,18 +56,18 @@
 
     section.conItem {
         height: 222px;
-        padding: 22.15px 28px;
+        padding: 1.476667rem 1.866667rem;
     }
 
     h2.conHeading {
-        font-size: 19.9px;
+        font-size: 1.32667rem;
     }
 
     p.conDesc {
-        margin-top: 3px;
-        margin-left: 1px;
-        font-size: 13.2px;
-        line-height: 23px;
+        margin-top: 0.2rem;
+        margin-left: 0.0666667rem;
+        font-size: 0.88rem;
+        line-height: 1.5333333rem;
     }
 
     img.conImg {
@@ -76,15 +75,15 @@
     }
 
     section.conItem.sup {
-        margin-bottom: 25px;
+        margin-bottom: 1.6666667rem;
     }
 
     section.conItem.team {
-        margin-bottom: 23px;
+        margin-bottom: 1.5333333rem;
     }
 
     section.conItem.karma {
-        margin-bottom: 24px;
+        margin-bottom: 1.6rem;
     }
 }
 
@@ -97,31 +96,30 @@
     }
 
     section.secTop {
-        margin-bottom: 62.5px;
+        margin-bottom: 4.166667rem;
     }
 
-    h2.topSubHeading {
-        font-size: 36.475px;
+    .topHeading, .topSubHeading {
+        font-size: 2.431667rem;
     }
 
     h1.topHeading {
-        font-size: 36.475px;
-        line-height: 48px;
+        line-height: 3.2rem;
     }
 
     p.topDesc {
         margin-top: 17.5px;
-        font-size: 15.15px;
-        line-height: 25.5px;
+        font-size: 1.01rem;
+        line-height: 1.7rem;
         width: 530px;
     }
 
     main.secContainer {
-        margin-bottom: 2.5px;
+        margin-bottom: 0.1666667rem;
         height: 530px;
         width: 1110px;
         display: grid;
-        grid-gap: 30px;
+        grid-gap: 2rem;
         justify-items: center;
         grid-template: 
             ".   team     ."
@@ -133,7 +131,7 @@
     section.conItem {
         width: 350px;
         height: 250px;
-        padding: 26.7475px 32px;
+        padding: 1.783166667rem 2.133333rem;
     }
 
     .sup { grid-area: sup; }
@@ -142,13 +140,13 @@
     .karma { grid-area: karma; }
 
     h2.conHeading {
-        font-size: 20px;
+        font-size: 1.33333rem;
     }
 
     p.conDesc {
-        margin-top: 7.5px;
-        font-size: 13.15px;
-        line-height: 23.5px;
+        margin-top: 0.5rem;
+        font-size: 0.876667rem;
+        line-height: 1.566667rem;
     }
 
     img.conImg {
@@ -185,17 +183,17 @@ h2.topSubHeading {
 
 section.conItem {
     background-color: white;
-    box-shadow: 0 10px 15px rgb(218, 225, 236);
-    border-radius: 5px 5px 7.5px 7.5px;
+    box-shadow: 0 0.666667rem 1rem rgb(218, 225, 236);
+    border-radius: 0.333333rem 0.333333rem 0.5rem 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sup { border-top: 4px solid var(--cyan); }
-.team { border-top: 4px solid var(--red); }
-.calc { border-top: 4px solid var(--blue); }
-.karma { border-top: 4px solid var(--orange); }
+.sup { border-top: 0.266667rem solid var(--cyan); }
+.team { border-top: 0.266667rem solid var(--red); }
+.calc { border-top: 0.266667rem solid var(--blue); }
+.karma { border-top: 0.266667rem solid var(--orange); }
 
 p.conDesc {
     margin-bottom: auto;
@@ -203,7 +201,7 @@ p.conDesc {
 
 img.conImg {
     width: auto;
-    margin-bottom: 6px;
+    margin-bottom: 0.4rem;
     align-self: flex-end;
 }
 
