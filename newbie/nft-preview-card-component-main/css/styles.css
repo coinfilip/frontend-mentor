@@ -23,6 +23,12 @@
 
 
 
+@media (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 667px;
+    }
+}
+
 @media (min-width: 1440px) {
     body {
         min-height: 900px;
