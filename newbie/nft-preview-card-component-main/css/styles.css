@@ -23,10 +23,50 @@
 
 
 
+body {
+    background-color: var(--very-dark-blue-main);
+}
+
+main {
+    background-color: var(--very-dark-blue-card);
+}
+
+h1.mainHead {
+    color: var(--white);
+}
+
+p.mainDesc {
+    color: var(--soft-blue);
+}
+
+p.ethDesc {
+    color: cyan;
+}
+
+p.timeDesc {
+    color: var(--soft-blue);
+}
+
+section.secPerson {
+    border-top: 1px solid var(--very-dark-blue-line);
+}
+
+p.personDesc {
+    color: var(--soft-blue);
+}
+
+span.personName {
+    color: var(--white);
+}
+
+
+
 /* Attribution section */
 .attribution { 
     font-size: 0.61111rem; 
     padding: 0.277778rem 0;
+    background-color: var(--very-dark-blue-main);
+    color: var(--soft-blue);
     text-align: center; 
     position: fixed;
     width: 100vw;
@@ -35,5 +75,5 @@
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--white); 
 }
