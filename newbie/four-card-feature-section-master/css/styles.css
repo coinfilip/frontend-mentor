@@ -26,7 +26,7 @@
 /* Mobile */
 @media (min-width: 375px) and (max-width: 1199px) {
     body {
-        min-height: 1360px;
+        height: 1360px;
         gap: 4.966667rem;
     }
 
@@ -49,12 +49,8 @@
         line-height: 1.66667rem;
     }
 
-    main.secContainer {
-        width: 311px;
-        min-height: 960px;
-    }
-
     section.conItem {
+        width: 311px;
         height: 222px;
         padding: 1.476667rem 1.866667rem;
     }
@@ -74,16 +70,51 @@
         height: 57px;
     }
 
-    section.conItem.sup {
+    .sup {
         margin-bottom: 1.6666667rem;
     }
 
-    section.conItem.team {
+    .team {
         margin-bottom: 1.5333333rem;
     }
 
-    section.conItem.karma {
+    .karma {
         margin-bottom: 1.6rem;
+    }
+}
+
+
+
+/* Laptop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        height: 922px;
+    }
+
+    main.secContainer {
+        width: 652px;
+        display: grid;
+        grid-gap: 2rem;
+        justify-items: center;
+        grid-template: 
+            "sup   team"
+            "karma calc";
+    }
+
+    section.secTop {
+        width: 420px;
+    }
+
+    .topHeading, .topSubHeading {
+        font-size: 2rem;
+    }
+
+    p.topDesc {
+        font-size: 1.01rem;
+    }
+
+    section.conItem {
+        margin-bottom: 0;
     }
 }
 
@@ -92,7 +123,7 @@
 /* Desktop */
 @media (min-width: 1200px) {
     body {
-        min-height: 850px;
+        height: 850px;
     }
 
     section.secTop {
@@ -134,11 +165,6 @@
         padding: 1.783166667rem 2.133333rem;
     }
 
-    .sup { grid-area: sup; }
-    .team { grid-area: team; }
-    .calc { grid-area: calc; }
-    .karma { grid-area: karma; }
-
     h2.conHeading {
         font-size: 1.33333rem;
     }
@@ -158,7 +184,7 @@
 
 body {
     background-color: var(--very-light-gray);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,10 +216,25 @@ section.conItem {
     justify-content: space-between;
 }
 
-.sup { border-top: 0.266667rem solid var(--cyan); }
-.team { border-top: 0.266667rem solid var(--red); }
-.calc { border-top: 0.266667rem solid var(--blue); }
-.karma { border-top: 0.266667rem solid var(--orange); }
+.sup { 
+    grid-area: sup;
+    border-top: 0.266667rem solid var(--cyan); 
+}
+
+.team { 
+    grid-area: team;
+    border-top: 0.266667rem solid var(--red); 
+}
+
+.calc { 
+    grid-area: calc;
+    border-top: 0.266667rem solid var(--blue); 
+}
+
+.karma { 
+    grid-area: karma;
+    border-top: 0.266667rem solid var(--orange); 
+}
 
 p.conDesc {
     margin-bottom: auto;
