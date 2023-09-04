@@ -1,5 +1,10 @@
 # Challenges from Frontend Mentor
 
+### Four card feature section
+
+[Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/four-card-feature-section-master) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/four-card-feature-section-master/)
+
+
 ### Single price grid component
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/single-price-grid-component-master) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/single-price-grid-component-master)
