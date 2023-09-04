@@ -26,7 +26,7 @@
 /* Mobile */
 @media (min-width: 375px) and (max-width: 1199px) {
     body {
-        height: 1360px;
+        min-height: 1360px;
         gap: 4.966667rem;
     }
 
@@ -88,7 +88,7 @@
 /* Laptop */
 @media (min-width: 768px) and (max-width: 1199px) {
     body {
-        height: 922px;
+        min-height: 922px;
     }
 
     main.secContainer {
@@ -123,7 +123,7 @@
 /* Desktop */
 @media (min-width: 1200px) {
     body {
-        height: 850px;
+        min-height: 850px;
     }
 
     section.secTop {
@@ -184,7 +184,7 @@
 
 body {
     background-color: var(--very-light-gray);
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
