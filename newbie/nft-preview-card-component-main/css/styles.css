@@ -11,6 +11,7 @@
 
     /* Font */
     font-size: 18px;
+    /* font-weight: 300, 400, 600; */
 }
 
 * {
@@ -24,8 +25,13 @@
 
 /* Attribution section */
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.61111rem; 
+    padding: 0.277778rem 0;
     text-align: center; 
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
 }
 
 .attribution a { 
