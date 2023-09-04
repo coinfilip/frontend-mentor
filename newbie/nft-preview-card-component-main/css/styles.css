@@ -23,12 +23,26 @@
 
 
 
+@media (min-width: 1440px) {
+    body {
+        min-height: 900px;
+    }
+}
+
+
+
 body {
     background-color: var(--very-dark-blue-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: var(--very-dark-blue-card);
+    width: 350px;
+    height: 596.5px;
+    margin-bottom: 1px;
 }
 
 h1.mainHead {
@@ -40,7 +54,7 @@ p.mainDesc {
 }
 
 p.ethDesc {
-    color: cyan;
+    color: var(--cyan);
 }
 
 p.timeDesc {
