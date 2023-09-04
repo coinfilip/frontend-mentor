@@ -49,6 +49,14 @@ main {
     width: 350px;
     height: 596.5px;
     margin-bottom: 1px;
+    border-radius: 17px;
+    padding: 24px;
+}
+
+img.imgEquilibrium {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
 }
 
 h1.mainHead {
