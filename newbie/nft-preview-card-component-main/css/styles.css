@@ -31,7 +31,7 @@
 
 @media (min-width: 1440px) {
     body {
-        min-height: 900px;
+        min-height: 650px;
     }
 }
 
@@ -39,6 +39,7 @@
 
 body {
     background-color: var(--very-dark-blue-main);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +52,9 @@ main {
     margin-bottom: 1px;
     border-radius: 17px;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img.imgEquilibrium {
@@ -62,7 +66,7 @@ img.imgEquilibrium {
 h1.mainHead {
     color: var(--white);
     font-size: 21.25px;
-    margin-top: 20px;
+    margin-top: auto;
     font-weight: 400;
     letter-spacing: 0.75px;
     word-spacing: -0.5px;
@@ -94,7 +98,7 @@ img.ethImg {
 
 p.ethDesc {
     color: var(--cyan);
-    font-size: 15.5px;
+    font-size: 15.25px;
     letter-spacing: 0.5px;
     margin-left: 6.5px;
     font-weight: 600;
@@ -118,14 +122,28 @@ p.timeDesc {
 
 section.secPerson {
     border-top: 1px solid var(--very-dark-blue-line);
+    align-items: center;
+    margin-top: 17.25px;
+    padding: 16px 0 8px;
+}
+
+img.personImg {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    height: 33px;
 }
 
 p.personDesc {
     color: var(--soft-blue);
+    margin-left: 16px;
+    font-size: 16px;
 }
 
 span.personName {
     color: var(--white);
+    font-size: 15.25px;
+    letter-spacing: 0.5px;
+    margin-left: 2.5px;
 }
 
 
