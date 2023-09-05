@@ -61,10 +61,24 @@ img.imgEquilibrium {
 
 h1.mainHead {
     color: var(--white);
+    font-size: 21.25px;
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    word-spacing: -0.5px;
 }
 
 p.mainDesc {
     color: var(--soft-blue);
+    padding: 17.25px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
 }
 
 p.ethDesc {
