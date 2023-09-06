@@ -1,5 +1,9 @@
 # Challenges from Frontend Mentor
 
+### NFT preview card component
+
+[Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/nft-preview-card-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/nft-preview-card-component-main/)
+
 ### Four card feature section
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/four-card-feature-section-master) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/four-card-feature-section-master/)
