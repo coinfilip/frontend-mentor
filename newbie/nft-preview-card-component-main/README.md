@@ -1,92 +1,93 @@
-# Frontend Mentor - NFT preview card component
+# Frontend Mentor - NFT preview card component solution
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this preview card component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![](./Screenshot.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- Solution URL: [Github](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/nft-preview-card-component-main)
+- Live Site URL: [Github Pages](https://coinfilip.github.io/frontend-mentor/newbie/nft-preview-card-component-main/)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## My process
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### Built with
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
 
-## Building your project
+### What I learned
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+For this challenge, the main lesson I learned is the pseudo-element ```::after```. I used it for the hover state rules on the equilibrium image. 
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Haven't seriously thought about using it until I get to do the hover state rules on the external CSS. Initially, the equilibrium image is inside an ```<img>``` element but since ```::after``` can't apply to *replaced elements* like ```<img>```, I decided to convert the element into a ```<section>``` and place the image inside the ```background``` CSS property. 
 
-## Deploying your project
+Also, one of my mistakes that I realized is using opacity on the background colors/images. Here's my initial line for the hover state on the equilibrium image.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+```css
+.imgEquilibrium:hover::after {
+  background: 
+    url(../images/icon-view.svg) no-repeat center, 
+    var(--cyan);
+  opacity: 0.5;
+}
+```
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+My goal in here is to specifically target the cyan background color with the value of the opacity. What happened in reality is that both the image and the cyan color shared the same opacity, which isn't matching with the design. 
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+```css
+.imgEquilibrium:hover::after {
+  background: 
+    url(../images/icon-view.svg) no-repeat center,
+    hsla(178, 100%, 50%, 0.5);
+}
+```
 
-## Create a custom `README.md`
+So, the remedy here is to incorporate the opacity inside the value of the color. That means getting the specific value of the cyan variable and adding the opacity value on the last space inside the hsla function.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Continued development
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Clearly, there are more to discover about CSS. So, I am looking forward to discovering more in the next challenges. Used the ```::after``` CSS pseudo-element for this challenge, but I'm aware also and looking forward to use the ```::before``` pseudo-element in the future. 
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Useful resources
 
-## Submitting your solution
+- [::after CSS reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) - This helped me realize that I should change the element of the equilibrium image for the rules placed inside the pseudo-element selector to work.
+- [Create fancy boxes using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/Create_fancy_boxes#a_cloud) - There is a section dedicated for pseudo-elements which helped me understand what I can do with the pseudo-elements selector. Comments are provided for more context on the declarations made.
+- [Before and after pseudo-elements explained](https://youtu.be/zGiirUiWslI) - This is a first from a series by Kevin Powell that you can watch if you don't prefer reading this time.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## Author
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- Website - [Github Profile](https://github.com/coinfilip)
+- Frontend Mentor - [@coinfilip](https://www.frontendmentor.io/profile/coinfilip)
 
-## Sharing your solution
+## Acknowledgments
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- The Odin Project
+- those behind the sites cited in Useful resources section 
+- Frontend Mentor for the opportunity to take on this challenge, and the people that I interacted with through this platform
