@@ -36,8 +36,9 @@
         padding: 24.25px 24.5px 24.25px 24px;
     }
 
-    img.imgEquilibrium {
+    .imgEquilibrium {
         width: 277.5px;
+        height: 277.5px;
         margin: 0 auto;
     }
 
@@ -109,8 +110,9 @@
         padding: 24px;
     }
 
-    img.imgEquilibrium {
-        width: 100%;
+    .imgEquilibrium {
+        height: 302px;
+        width: 302px;
     }
 
     h1.mainHead {
@@ -179,10 +181,10 @@ main {
     justify-content: space-between;
 }
 
-img.imgEquilibrium {
-    object-fit: cover;
+.imgEquilibrium {
+    background: url(../images/image-equilibrium.jpg) no-repeat top center;
+    background-size: cover;
     border-radius: 8px;
-    height: auto;
 }
 
 h1.mainHead {
@@ -255,6 +257,23 @@ span.personName {
 .mainHead:hover, 
 .personName:hover {
     color: var(--cyan);
+    cursor: pointer;
+}
+
+
+
+/* Pseudo-elements */
+.imgEquilibrium::after {
+    content: '';
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+.imgEquilibrium:hover::after {
+    background: 
+        url(../images/icon-view.svg) no-repeat center, 
+        hsla(178, 100%, 50%, 0.5);
     cursor: pointer;
 }
 
