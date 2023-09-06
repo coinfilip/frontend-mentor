@@ -23,15 +23,142 @@
 
 
 
+/* Mobile */
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
         min-height: 667px;
     }
+
+    main {
+        width: 327px;
+        height: 543px;
+        border-radius: 14px;
+        padding: 24.25px 24.5px 24.25px 24px;
+    }
+
+    img.imgEquilibrium {
+        width: 277.5px;
+        margin: 0 auto;
+    }
+
+    h1.mainHead {
+        word-spacing: -0.75px;
+    }
+
+    p.mainDesc {
+        padding: 12.5px 0;
+        font-size: 16px;
+        letter-spacing: 0.05px;
+    }
+
+    section.secDetails {
+        padding: 4px 0;
+    }
+
+    img.ethImg {
+        height: 17px;
+    }
+
+    p.ethDesc {
+        font-size: 14.75px;
+        font-weight: 400;
+        word-spacing: -0.5px;
+    }
+
+    img.timeImg {
+        height: 17px;
+    }
+
+    p.timeDesc {
+        font-size: 15px;
+        margin-right: 1.5px;
+    }
+
+    section.secPerson {
+        margin-top: 11.5px;
+        padding-top: 16px;
+    }
+
+    p.personDesc {
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 0.125px;
+        word-spacing: -0.5px;
+    }
+
+    span.personName {
+        font-size: 15px;
+        letter-spacing: 0.25px;
+        margin-left: 1.5px;
+    }
 }
 
+
+
+/* Desktop */
 @media (min-width: 1440px) {
     body {
         min-height: 650px;
+    }
+
+    main {
+        width: 350px;
+        height: 596.5px;
+        margin-bottom: 1px;
+        border-radius: 17px;
+        padding: 24px;
+    }
+
+    img.imgEquilibrium {
+        width: 100%;
+    }
+
+    h1.mainHead {
+        word-spacing: -0.5px;
+    }
+
+    p.mainDesc {
+        padding: 17.25px 0;
+        font-size: 18px;
+    }
+
+    section.secDetails {
+        padding: 6.75px 0;
+    }
+
+    img.ethImg {
+        height: 18px;
+    }
+
+    p.ethDesc {
+        font-size: 15.25px;
+        font-weight: 600;
+    }
+
+    img.timeImg {
+        height: 16.5px;
+    }
+
+    p.timeDesc {
+        font-size: 15.25px;
+        margin-right: 2px;
+        letter-spacing: 0.5px;
+        word-spacing: -0.5px;
+    }
+
+    section.secPerson {
+        margin-top: 17.25px;
+        padding: 16px 0 8px;
+    }
+
+    p.personDesc {
+        font-size: 16px;
+    }
+
+    span.personName {
+        font-size: 15.25px;
+        letter-spacing: 0.5px;
+        margin-left: 2.5px;
     }
 }
 
@@ -47,20 +174,15 @@ body {
 
 main {
     background-color: var(--very-dark-blue-card);
-    width: 350px;
-    height: 596.5px;
-    margin-bottom: 1px;
-    border-radius: 17px;
-    padding: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 img.imgEquilibrium {
     object-fit: cover;
-    width: 100%;
     border-radius: 8px;
+    height: auto;
 }
 
 h1.mainHead {
@@ -69,13 +191,10 @@ h1.mainHead {
     margin-top: auto;
     font-weight: 400;
     letter-spacing: 0.75px;
-    word-spacing: -0.5px;
 }
 
 p.mainDesc {
     color: var(--soft-blue);
-    padding: 17.25px 0;
-    font-size: 18px;
     line-height: 26px;
     font-weight: 300;
 }
@@ -83,48 +202,36 @@ p.mainDesc {
 section {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 section.secDetails {
     justify-content: space-between;
-    align-items: center;
-    padding: 6.75px 0;
 }
 
 img.ethImg {
     width: auto;
-    height: 18px;
 }
 
 p.ethDesc {
     color: var(--cyan);
-    font-size: 15.25px;
     letter-spacing: 0.5px;
     margin-left: 6.5px;
-    font-weight: 600;
 }
 
 img.timeImg {
-    height: 16px;
     width: auto;
     margin-left: auto;
 }
 
 p.timeDesc {
     color: var(--soft-blue);
-    font-size: 15.25px;
-    margin-right: 2px;
-    letter-spacing: 0.5px;
     font-weight: 300;
-    word-spacing: -0.5px;
-    margin-left: 8px;
+    margin-left: 7.5px;
 }
 
 section.secPerson {
     border-top: 1px solid var(--very-dark-blue-line);
-    align-items: center;
-    margin-top: 17.25px;
-    padding: 16px 0 8px;
 }
 
 img.personImg {
@@ -136,14 +243,10 @@ img.personImg {
 p.personDesc {
     color: var(--soft-blue);
     margin-left: 16px;
-    font-size: 16px;
 }
 
 span.personName {
     color: var(--white);
-    font-size: 15.25px;
-    letter-spacing: 0.5px;
-    margin-left: 2.5px;
 }
 
 
