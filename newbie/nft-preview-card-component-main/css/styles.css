@@ -251,6 +251,15 @@ span.personName {
 
 
 
+/* Hover state */
+.mainHead:hover, 
+.personName:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+
+
 /* Attribution section */
 .attribution { 
     font-size: 0.61111rem; 
