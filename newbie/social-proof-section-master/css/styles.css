@@ -22,10 +22,33 @@
 
 
 
+/* Mobile */
+@media (min-width: 375px) and (max-width: 1439px) {
+    body {
+        min-height: 1530px;
+    }
+}
+
+
+
+/* Desktop */
+@media (min-width: 1440px) {
+    body {
+        min-height: 800px;
+    }
+}
+
+
+
 /* Attribution section */
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
