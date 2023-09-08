@@ -40,6 +40,37 @@
 
 
 
+body {
+    background-color: var(--white);
+}
+
+.headTitle, 
+.headDesc, 
+.rateItemDesc, 
+.attribution {
+    color: var(--very-dark-magenta);
+}
+
+.rateItem {
+    background-color: var(--light-grayish-magenta);
+}
+
+.reviewItem {
+    background-color: var(--very-dark-magenta);
+}
+
+.reviewItemHeadPersonName, 
+.reviewItemDesc {
+    color: var(--light-grayish-magenta);
+}
+
+.reviewItemHeadPersonTitle, 
+.attribution a {
+    color: var(--soft-pink);
+}
+
+
+
 /* Attribution section */
 .attribution {
     font-size: 11px;
@@ -49,7 +80,4 @@
     bottom: 0;
     left: 0;
     padding: 5px 0;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
