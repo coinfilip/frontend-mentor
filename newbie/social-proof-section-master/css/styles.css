@@ -47,7 +47,7 @@ body {
 }
 
 main {
-    width: 325px;
+    width: 327px;
 }
 
 section.head {
@@ -67,6 +67,24 @@ p.headDesc {
     color: var(--dark-grayish-magenta);
     line-height: 25px;
     letter-spacing: -0.5px;
+}
+
+section.rates {
+    margin-top: 38.5px;
+}
+
+article.rateItem {
+    padding: 15px;
+    margin: 16.5px 0;
+    border-radius: 8px;
+}
+
+p.rateItemDesc {
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 8px;
 }
 
 .headTitle, 
