@@ -42,13 +42,41 @@
 
 body {
     background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 325px;
+}
+
+section.head {
+    text-align: center;
+    margin-top: 82.5px;
+}
+
+h1.headTitle {
+    font-size: 40px;
+    letter-spacing: -1.4px;
+    line-height: 32px;
+}
+
+p.headDesc {
+    margin: 23px 0;
+    font-size: 19px;
+    color: var(--dark-grayish-magenta);
+    line-height: 25px;
+    letter-spacing: -0.5px;
 }
 
 .headTitle, 
-.headDesc, 
 .rateItemDesc, 
 .attribution {
     color: var(--very-dark-magenta);
+}
+
+.headDesc {
+    color: var(--dark-grayish-magenta);
 }
 
 .rateItem {
