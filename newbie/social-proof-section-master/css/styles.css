@@ -96,6 +96,16 @@ p.rateItemDesc {
     width: fit-content;
 }
 
+section.reviews {
+    margin-top: 49px;
+}
+
+article.reviewItem {
+    border-radius: 8px;
+    height: 248px;
+    margin: 16px 0;
+}
+
 .headTitle, 
 .rateItemDesc, 
 .attribution {
