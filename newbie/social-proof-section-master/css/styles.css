@@ -104,6 +104,50 @@ article.reviewItem {
     border-radius: 8px;
     height: 248px;
     margin: 16px 0;
+    padding: 30px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.reviewItemHead {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+img.reviewItemAvatar {
+    border-radius: 50%;
+    height: 40px;
+}
+
+section.reviewItemHeadPerson {
+    margin-left: 23px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+p.reviewItemHeadPersonName {
+    font-size: 16.25px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+}
+
+p.reviewItemHeadPersonTitle {
+    font-size: 16.25px;
+    letter-spacing: 0.4px;
+}
+
+.reviewItemDesc {
+    font-size: 16.25px;
+    line-height: 21.95px;
+    letter-spacing: 0.15px;
+}
+
+p.reviewItemDesc::first-line {
+    line-height: 23px;
 }
 
 .headTitle, 
