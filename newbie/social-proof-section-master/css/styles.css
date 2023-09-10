@@ -77,14 +77,23 @@ article.rateItem {
     padding: 15px;
     margin: 16.5px 0;
     border-radius: 8px;
+    height: 77.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.rateItemStars {
+    background: url(../images/icon-star.svg) space no-repeat center;
+    height: 18px;
+    width: 100px;
 }
 
 p.rateItemDesc {
     font-size: 17px;
     font-weight: 700;
-    text-align: center;
-    margin-top: 32px;
-    margin-left: 8px;
+    width: fit-content;
 }
 
 .headTitle, 
