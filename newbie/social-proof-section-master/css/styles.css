@@ -25,6 +25,7 @@
 /* Mobile */
 @media (min-width: 375px) and (max-width: 1439px) {
     body {
+        background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left, url(../images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
         min-height: 1530px;
     }
 }
@@ -34,6 +35,7 @@
 /* Desktop */
 @media (min-width: 1440px) {
     body {
+        background: url(../images/bg-pattern-top-desktop.svg) no-repeat top left, url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
         min-height: 800px;
     }
 }
