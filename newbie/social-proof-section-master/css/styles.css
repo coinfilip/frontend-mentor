@@ -182,6 +182,8 @@ p.reviewItemDesc::first-line {
 
 /* Attribution section */
 .attribution {
+    background: var(--white);
+    opacity: 0.9;
     font-size: 11px;
     text-align: center;
     position: fixed;
