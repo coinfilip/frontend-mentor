@@ -28,6 +28,45 @@
         background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left, url(../images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
         min-height: 1530px;
     }
+
+    main {
+        width: 327px;
+    }
+
+    section.head {
+        text-align: center;
+        margin-top: 82.5px;
+    }
+
+    h1.headTitle {
+        font-size: 40px;
+        letter-spacing: -1.4px;
+        line-height: 32px;
+    }
+
+    p.headDesc {
+        margin: 23px 0;
+    }
+
+    section.rates {
+        margin-top: 38.5px;
+    }
+
+    article.rateItem {
+        height: 77.5px;
+        flex-direction: column;
+    }
+
+    section.reviews {
+        display: flex;
+        flex-direction: column;
+        margin-top: 49px;
+        gap: 16px;
+    }
+
+    article.reviewItem {
+        height: 248px;
+    }
 }
 
 
@@ -38,6 +77,60 @@
         background: url(../images/bg-pattern-top-desktop.svg) no-repeat top left, url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
         min-height: 800px;
     }
+
+    main {
+        display: grid;
+        grid-template: "head rates"
+                "reviews reviews";
+        grid-template-columns: 430px 540px;
+        grid-template-rows: 280px 266px;
+        column-gap: 140px;
+        row-gap: 54px;
+        height: 600px;
+        width: 1110px;
+    }
+
+    .head, .rates {
+        align-self: center;
+    }
+
+    .head {
+        grid-area: head;
+    }
+
+    h1.headTitle {
+        font-size: 55px;
+        letter-spacing: -1.5px;
+        line-height: 48px;
+    }
+
+    p.headDesc {
+        margin-top: 25px;
+    }
+
+    .rates {
+        grid-area: rates;
+    }
+
+    article.rateItem {
+        height: 50px;
+        flex-direction: row;
+    }
+
+    .reviews {
+        grid-area: reviews;
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article.reviewItem {
+        height: 235px;
+    }
+
+    .reviewItemDesc {
+        margin-bottom: 9px;
+    }
 }
 
 
@@ -46,42 +139,21 @@ body {
     background-color: var(--white);
     display: flex;
     justify-content: center;
-}
-
-main {
-    width: 327px;
-}
-
-section.head {
-    text-align: center;
-    margin-top: 82.5px;
-}
-
-h1.headTitle {
-    font-size: 40px;
-    letter-spacing: -1.4px;
-    line-height: 32px;
+    align-items: center;
 }
 
 p.headDesc {
-    margin: 23px 0;
     font-size: 19px;
     color: var(--dark-grayish-magenta);
     line-height: 25px;
     letter-spacing: -0.5px;
 }
 
-section.rates {
-    margin-top: 38.5px;
-}
-
 article.rateItem {
     padding: 15px;
     margin: 16.5px 0;
     border-radius: 8px;
-    height: 77.5px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -98,14 +170,8 @@ p.rateItemDesc {
     width: fit-content;
 }
 
-section.reviews {
-    margin-top: 49px;
-}
-
 article.reviewItem {
     border-radius: 8px;
-    height: 248px;
-    margin: 16px 0;
     padding: 30px 32px;
     display: flex;
     flex-direction: column;
