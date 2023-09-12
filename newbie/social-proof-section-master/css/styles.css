@@ -46,6 +46,7 @@
 
     p.headDesc {
         margin: 23px 0;
+        font-size: 19px;
     }
 
     section.rates {
@@ -105,7 +106,8 @@
     }
 
     p.headDesc {
-        margin-top: 25px;
+        font-size: 19.15px;
+        margin-top: 26px;
     }
 
     .rates {
@@ -143,7 +145,6 @@ body {
 }
 
 p.headDesc {
-    font-size: 19px;
     color: var(--dark-grayish-magenta);
     line-height: 25px;
     letter-spacing: -0.5px;
