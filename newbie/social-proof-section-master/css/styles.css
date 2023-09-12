@@ -31,11 +31,11 @@
 
     main {
         width: 327px;
+        margin-bottom: 17px;
     }
 
     section.head {
         text-align: center;
-        margin-top: 82.5px;
     }
 
     h1.headTitle {
