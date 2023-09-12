@@ -56,6 +56,7 @@
     article.rateItem {
         height: 77.5px;
         flex-direction: column;
+        margin: 16.5px 0;
     }
 
     section.reviews {
@@ -112,11 +113,25 @@
 
     .rates {
         grid-area: rates;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 10px;
     }
 
     article.rateItem {
-        height: 50px;
+        height: 56px;
+        width: 445px;
         flex-direction: row;
+        margin: 0 auto;
+    }
+
+    article.rateItem:first-child {
+        margin-left: 0;
+    }
+
+    article.rateItem:last-child {
+        margin-right: 0;
     }
 
     .reviews {
@@ -128,6 +143,15 @@
 
     article.reviewItem {
         height: 235px;
+        margin: auto 0;
+    }
+
+    article.reviewItem:first-child {
+        margin-top: 0;
+    }
+    
+    article.reviewItem:last-child {
+        margin-bottom: 0;
     }
 
     .reviewItemDesc {
@@ -142,6 +166,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 p.headDesc {
@@ -152,7 +177,6 @@ p.headDesc {
 
 article.rateItem {
     padding: 15px;
-    margin: 16.5px 0;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
