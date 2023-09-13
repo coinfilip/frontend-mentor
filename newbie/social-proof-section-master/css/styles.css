@@ -198,7 +198,7 @@ div.rateItemStarPiece {
     height: auto;
 }
 
-p.rateItemDesc {
+h2.rateItemDesc {
     font-size: 1.133333rem;
     font-weight: 700;
     width: fit-content;
@@ -232,12 +232,15 @@ section.reviewItemHeadPerson {
     gap: 0.33333rem;
 }
 
-p.reviewItemHeadPersonName {
+.reviewItemHeadPersonName {
+    font-size: inherit;
     font-weight: 700;
     letter-spacing: 0.0233333rem;
 }
 
-p.reviewItemHeadPersonTitle {
+.reviewItemHeadPersonTitle {
+    font-size: inherit;
+    font-weight: inherit;
     letter-spacing: 0.0266667rem;
 }
 
