@@ -255,11 +255,12 @@ p.reviewItemDesc::first-line {
 
 .headTitle, 
 .rateItemDesc, 
-.attribution {
+.attribution a {
     color: var(--very-dark-magenta);
 }
 
-.headDesc {
+.headDesc,
+.attribution {
     color: var(--dark-grayish-magenta);
 }
 
@@ -276,8 +277,7 @@ p.reviewItemDesc::first-line {
     color: var(--light-grayish-magenta);
 }
 
-.reviewItemHeadPersonTitle, 
-.attribution a {
+.reviewItemHeadPersonTitle {
     color: var(--soft-pink);
 }
 
