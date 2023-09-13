@@ -23,7 +23,7 @@
 
 
 /* Mobile */
-@media (min-width: 375px) and (max-width: 1439px) {
+@media (min-width: 375px) and (max-width: 1199px) {
     body {
         background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left, url(../images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
         min-height: 1530px;
@@ -56,6 +56,7 @@
     article.rateItem {
         height: 77.5px;
         flex-direction: column;
+        justify-content: space-between;
         margin: 16.5px 0;
     }
 
@@ -74,7 +75,7 @@
 
 
 /* Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     body {
         background: url(../images/bg-pattern-top-desktop.svg) no-repeat top left, url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
         min-height: 800px;
@@ -134,6 +135,10 @@
         margin-right: 0;
     }
 
+    div.rateItemStars {
+        margin: 0 32px 0 17px;
+    }
+
     .reviews {
         grid-area: reviews;
         display: grid;
@@ -179,14 +184,19 @@ article.rateItem {
     padding: 15px;
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 div.rateItemStars {
-    background: url(../images/icon-star.svg) space no-repeat center;
-    height: 18px;
-    width: 100px;
+    height: 17px;
+    display: flex;
+    gap: 8px;
+}
+
+div.rateItemStarPiece {
+    background: url(../images/icon-star.svg) no-repeat center;
+    width: 17px;
+    height: auto;
 }
 
 p.rateItemDesc {
