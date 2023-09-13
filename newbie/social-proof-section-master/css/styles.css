@@ -10,7 +10,6 @@
 
     /* Font */
     font-size: 15px;
-    /* font-weight: 400, 500, 700 */
 }
 
 * {
@@ -31,7 +30,7 @@
 
     main {
         width: 327px;
-        margin-bottom: 17px;
+        margin-bottom: 1.133333rem;
     }
 
     section.head {
@@ -39,32 +38,32 @@
     }
 
     h1.headTitle {
-        font-size: 40px;
-        letter-spacing: -1.4px;
-        line-height: 32px;
+        font-size: 2.66667rem;
+        letter-spacing: -0.0933333rem;
+        line-height: 2.13333rem;
     }
 
     p.headDesc {
-        margin: 23px 0;
-        font-size: 19px;
+        margin: 1.533333rem 0;
+        font-size: 1.266667rem;
     }
 
     section.rates {
-        margin-top: 38.5px;
+        margin-top: 2.566667rem;
     }
 
     article.rateItem {
         height: 77.5px;
         flex-direction: column;
         justify-content: space-between;
-        margin: 16.5px 0;
+        margin: 1.1rem 0;
     }
 
     section.reviews {
         display: flex;
         flex-direction: column;
-        margin-top: 49px;
-        gap: 16px;
+        margin-top: 3.266667rem;
+        gap: 1.066667rem;
     }
 
     article.reviewItem {
@@ -102,22 +101,22 @@
     }
 
     h1.headTitle {
-        font-size: 55px;
-        letter-spacing: -1.5px;
-        line-height: 48px;
+        font-size: 3.66667rem;
+        letter-spacing: -0.1rem;
+        line-height: 3.2rem;
     }
 
     p.headDesc {
-        font-size: 19.15px;
-        margin-top: 26px;
+        font-size: 1.2766667rem;
+        margin-top: 1.733333rem;
     }
 
     .rates {
         grid-area: rates;
         display: flex;
         flex-direction: column;
-        gap: 16px;
-        margin-top: 10px;
+        gap: 1.066667rem;
+        margin-top: 0.66667rem;
     }
 
     article.rateItem {
@@ -136,13 +135,13 @@
     }
 
     div.rateItemStars {
-        margin: 0 32px 0 17px;
+        margin: 0 2.13333rem 0 1.133333rem;
     }
 
     .reviews {
         grid-area: reviews;
         display: grid;
-        column-gap: 30px;
+        column-gap: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
@@ -176,13 +175,13 @@ body {
 
 p.headDesc {
     color: var(--dark-grayish-magenta);
-    line-height: 25px;
-    letter-spacing: -0.5px;
+    line-height: 1.66667rem;
+    letter-spacing: -0.033333rem;
 }
 
 article.rateItem {
-    padding: 15px;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 0.533333rem;
     display: flex;
     align-items: center;
 }
@@ -190,7 +189,7 @@ article.rateItem {
 div.rateItemStars {
     height: 17px;
     display: flex;
-    gap: 8px;
+    gap: 0.533333rem;
 }
 
 div.rateItemStarPiece {
@@ -200,14 +199,15 @@ div.rateItemStarPiece {
 }
 
 p.rateItemDesc {
-    font-size: 17px;
+    font-size: 1.133333rem;
     font-weight: 700;
     width: fit-content;
 }
 
 article.reviewItem {
-    border-radius: 8px;
-    padding: 30px 32px;
+    border-radius: 0.533333rem;
+    font-size: 1.0833333rem;
+    padding: 2rem 2.13333rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -216,7 +216,7 @@ article.reviewItem {
 section.reviewItemHead {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0.66667rem;
 }
 
 img.reviewItemAvatar {
@@ -225,32 +225,29 @@ img.reviewItemAvatar {
 }
 
 section.reviewItemHeadPerson {
-    margin-left: 23px;
-    margin-top: 3px;
+    margin-left: 1.533333rem;
+    margin-top: 0.2rem;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.33333rem;
 }
 
 p.reviewItemHeadPersonName {
-    font-size: 16.25px;
     font-weight: 700;
-    letter-spacing: 0.35px;
+    letter-spacing: 0.0233333rem;
 }
 
 p.reviewItemHeadPersonTitle {
-    font-size: 16.25px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.0266667rem;
 }
 
 .reviewItemDesc {
-    font-size: 16.25px;
-    line-height: 21.95px;
-    letter-spacing: 0.15px;
+    line-height: 1.4633333rem;
+    letter-spacing: 0.01rem;
 }
 
 p.reviewItemDesc::first-line {
-    line-height: 23px;
+    line-height: 1.533333rem;
 }
 
 .headTitle, 
@@ -287,11 +284,11 @@ p.reviewItemDesc::first-line {
 .attribution {
     background: var(--white);
     opacity: 0.9;
-    font-size: 11px;
+    font-size: 0.733333rem;
     text-align: center;
     position: fixed;
     width: 100vw;
     bottom: 0;
     left: 0;
-    padding: 5px 0;
+    padding: 0.33333rem 0;
 }
