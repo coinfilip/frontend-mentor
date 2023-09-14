@@ -49,9 +49,11 @@ main {
     height: 573px;
     width: 1110px;
     display: grid;
-    grid-template: 
-        "daniel daniel jonathan kira"
+    grid-template: "daniel daniel jonathan kira"
         "jeanette patrick patrick kira";
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 25px;
 }
 
 .daniel, 
