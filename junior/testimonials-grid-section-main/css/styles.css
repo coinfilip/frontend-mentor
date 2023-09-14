@@ -22,6 +22,21 @@
 }
 
 
+@media (min-width: 350px) and (max-width: 1439px) {
+    body {
+        min-height: 1530px;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    body {
+        min-height: 900px;
+    }
+}
+
+
 
 /* Attribution section */
 .attribution { 
