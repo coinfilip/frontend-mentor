@@ -38,6 +38,55 @@
 
 
 
+body {
+    background: var(--light-grayish-blue);
+}
+
+.daniel, 
+.jonathan, 
+.patrick {
+    color: var(--light-gray);
+}
+
+.daniel {
+    background-color: var(--moderate-violet);
+}
+
+.jonathan {
+    background-color: var(--very-dark-grayish-blue);
+}
+
+.patrick {
+    background-color: var(--very-dark-blackish-blue);
+}
+
+.jeanette, 
+.kira {
+    background-color: var(--white);
+    color: var(--very-dark-grayish-blue);
+}
+
+.itemHeadTitle {
+    opacity: 50%;
+}
+
+.itemDesc {
+    opacity: 70%;
+}
+
+.itemHeadName {
+    color: inherit;
+}
+
+.daniel .itemTitle, 
+.jonathan .itemTitle, 
+.patrick .itemTitle {
+    color: var(--light-grayish-blue);
+}
+
+
+
+
 /* Attribution section */
 .attribution { 
     font-size: 11px; 
