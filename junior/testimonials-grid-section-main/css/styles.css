@@ -22,7 +22,8 @@
 }
 
 
-@media (min-width: 350px) and (max-width: 1439px) {
+
+@media (min-width: 350px) and (max-width: 1199px) {
     body {
         min-height: 1530px;
     }
@@ -30,9 +31,9 @@
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     body {
-        min-height: 900px;
+        min-height: 700px;
     }
 }
 
@@ -43,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 main {
@@ -53,7 +55,7 @@ main {
         "jeanette patrick patrick kira";
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
-    row-gap: 25px;
+    row-gap: 24px;
 }
 
 .daniel, 
@@ -95,6 +97,11 @@ main {
 
 .kira {
     grid-area: kira;
+}
+
+article.reviewItem {
+    border-radius: 8px;
+    padding: 10px 32px;
 }
 
 .itemHeadTitle {
