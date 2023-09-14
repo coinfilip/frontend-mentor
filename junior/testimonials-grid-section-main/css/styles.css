@@ -40,6 +40,18 @@
 
 body {
     background: var(--light-grayish-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 573px;
+    width: 1110px;
+    display: grid;
+    grid-template: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
 }
 
 .daniel, 
@@ -48,22 +60,39 @@ body {
     color: var(--light-gray);
 }
 
-.daniel {
-    background-color: var(--moderate-violet);
-}
-
-.jonathan {
-    background-color: var(--very-dark-grayish-blue);
-}
-
-.patrick {
-    background-color: var(--very-dark-blackish-blue);
+.daniel .itemTitle, 
+.jonathan .itemTitle, 
+.patrick .itemTitle {
+    color: var(--light-grayish-blue);
 }
 
 .jeanette, 
 .kira {
     background-color: var(--white);
     color: var(--very-dark-grayish-blue);
+}
+
+.daniel {
+    background-color: var(--moderate-violet);
+    grid-area: daniel;
+}
+
+.jonathan {
+    background-color: var(--very-dark-grayish-blue);
+    grid-area: jonathan;
+}
+
+.patrick {
+    background-color: var(--very-dark-blackish-blue);
+    grid-area: patrick;
+}
+
+.jeanette {
+    grid-area: jeanette;
+}
+
+.kira {
+    grid-area: kira;
 }
 
 .itemHeadTitle {
@@ -77,13 +106,6 @@ body {
 .itemHeadName {
     color: inherit;
 }
-
-.daniel .itemTitle, 
-.jonathan .itemTitle, 
-.patrick .itemTitle {
-    color: var(--light-grayish-blue);
-}
-
 
 
 
