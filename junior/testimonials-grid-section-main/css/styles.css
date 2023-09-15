@@ -160,6 +160,12 @@ article.reviewItem > :not(.itemHead) {
     padding: 0 2px;
 }
 
+.itemTitle {
+    margin: 17px 0 16px 0;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
 .itemDesc {
     opacity: 70%;
 }
