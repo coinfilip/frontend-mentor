@@ -101,11 +101,34 @@ main {
 
 article.reviewItem {
     border-radius: 8px;
-    padding: 10px 32px;
+    padding: 24px 30px;
+}
+
+.itemHead {
+    display: flex;
+    margin: 0.85px 0.25px;
+}
+
+.daniel .itemHeadAvatar {
+    height: 31px;
+    border: 1px solid var(--light-gray);
+    border-radius: 50%;
+}
+
+.itemHeadPerson {
+    margin-left: 15.5px;
+    margin-top: 0.5px;
+}
+
+.itemHeadName {
+    color: inherit;
+    font-size: 12.95px;
+    margin-bottom: 1px;
 }
 
 .itemHeadTitle {
     opacity: 50%;
+    font-size: 11px;
 }
 
 .itemDesc {
