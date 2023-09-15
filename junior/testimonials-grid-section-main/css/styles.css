@@ -109,11 +109,36 @@ article.reviewItem {
     margin: 0.85px 0.25px;
 }
 
-.daniel .itemHeadAvatar {
+.daniel .itemHeadAvatar, 
+.patrick .itemHeadAvatar {
     height: 31px;
-    border: 1px solid var(--light-gray);
     border-radius: 50%;
 }
+
+.itemHeadAvatar:not(.daniel .itemHeadAvatar, 
+                    .patrick .itemHeadAvatar) {
+    height: 29px;
+    border-radius: 50%;
+    margin: 1px;
+}
+
+.kira .itemHeadAvatar, 
+.jeanette .itemHeadAvatar {
+    border: 1px solid var(--light-gray);
+}
+
+.jonathan .itemHeadAvatar {
+    border: 0.5px solid var(--very-dark-grayish-blue);
+}
+
+.patrick .itemHeadAvatar {
+    border: 1.75px solid var(--moderate-violet);
+}
+
+.daniel .itemHeadAvatar {
+    border: 1px solid var(--light-gray);
+}
+
 
 .itemHeadPerson {
     margin-left: 15.5px;
@@ -129,6 +154,10 @@ article.reviewItem {
 .itemHeadTitle {
     opacity: 50%;
     font-size: 11px;
+}
+
+article.reviewItem > :not(.itemHead) {
+    padding: 0 2px;
 }
 
 .itemDesc {
