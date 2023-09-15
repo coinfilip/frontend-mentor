@@ -54,6 +54,7 @@ main {
     grid-template: "daniel daniel jonathan kira"
         "jeanette patrick patrick kira";
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 49.25829% 46.55323%;
     column-gap: 30px;
     row-gap: 24px;
 }
