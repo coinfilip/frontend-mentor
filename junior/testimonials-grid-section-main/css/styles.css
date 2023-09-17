@@ -103,6 +103,9 @@ main {
 article.reviewItem {
     border-radius: 8px;
     padding: 24px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .itemHead {
@@ -162,13 +165,37 @@ article.reviewItem > :not(.itemHead) {
 }
 
 .itemTitle {
-    margin: 17px 0 16px 0;
-    letter-spacing: 0.2px;
+    margin-top: 16.25px;
+    letter-spacing: 0.225px;
     line-height: 24px;
 }
 
+.daniel .itemTitle,
+.jonathan .itemTitle,
+.kira .itemTitle {
+    margin-top: 16.5px;
+}
+
+.patrick .itemTitle {
+    letter-spacing: 0.25px;
+}
+
 .itemDesc {
+    margin-top: 15.5px;
     opacity: 70%;
+    line-height: 18px;
+}
+
+.jeanette .itemDesc,
+.patrick .itemDesc,
+.kira .itemDesc {
+    margin-top: auto;
+    margin-bottom: 2.5px;
+}
+
+.patrick .itemDesc,
+.daniel .itemDesc {
+    letter-spacing: 0.0275px;
 }
 
 .itemHeadName {
