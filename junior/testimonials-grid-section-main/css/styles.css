@@ -25,7 +25,18 @@
 
 @media (min-width: 350px) and (max-width: 1199px) {
     body {
-        min-height: 1530px;
+        min-height: 1966px;
+    }
+
+    main {
+        width: 327.35px;
+        height: 1824px;
+        grid-template: 
+            "daniel"
+            "jonathan"
+            "jeanette"
+            "patrick"
+            "kira";
     }
 }
 
@@ -34,6 +45,18 @@
 @media (min-width: 1200px) {
     body {
         min-height: 700px;
+    }
+
+    main {
+        height: 573px;
+        width: 1110px;
+        grid-template: 
+            "daniel daniel jonathan kira"
+            "jeanette patrick patrick kira";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 49.25829% 46.55323%;
+        column-gap: 30px;
+        row-gap: 24px;
     }
 }
 
@@ -48,15 +71,7 @@ body {
 }
 
 main {
-    height: 573px;
-    width: 1110px;
     display: grid;
-    grid-template: "daniel daniel jonathan kira"
-        "jeanette patrick patrick kira";
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 49.25829% 46.55323%;
-    column-gap: 30px;
-    row-gap: 24px;
 }
 
 .daniel, 
