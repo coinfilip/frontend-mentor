@@ -25,19 +25,20 @@
 
 @media (min-width: 350px) and (max-width: 1199px) {
     body {
-        min-height: 1966px;
+        min-height: 100vh;
     }
 
     main {
-        width: 327.35px;
-        height: 1824px;
+        width: 87.2933333%;
+        height: fit-content;
         grid-template: 
             "daniel"
             "jonathan"
             "jeanette"
             "patrick"
             "kira";
-        align-content: space-between;
+        grid-gap: 24px;
+        margin: 71px 0;
     }
 
     article.reviewItem {
@@ -69,6 +70,7 @@
 @media (min-width: 1200px) {
     body {
         min-height: 700px;
+        height: 100vh;
     }
 
     main {
@@ -130,7 +132,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 main {
