@@ -37,12 +37,30 @@
             "jeanette"
             "patrick"
             "kira";
+        align-content: space-between;
+    }
+
+    article.reviewItem {
+        height: fit-content;
+        padding: 24.5px 30.5px;
     }
 
     .daniel {
         background: 
             url(../images/bg-pattern-quotation.svg) no-repeat top right 10.75%,
             var(--moderate-violet);
+    }
+
+    article.reviewItem > :not(.itemHead) {
+        padding: 0 1.5px;
+    }
+
+    .itemTitle {
+        margin-top: 17px;
+    }
+
+    .itemDesc {
+        margin: 15.5px 0 7.5px;
     }
 }
 
@@ -65,10 +83,43 @@
         row-gap: 24px;
     }
 
+    article.reviewItem {
+        padding: 24px 30px;
+    }
+
     .daniel {
         background: 
             url(../images/bg-pattern-quotation.svg) no-repeat top 0.5% right 18.5%,
             var(--moderate-violet);
+    }
+
+    .itemHead {
+        margin: 0.85px 0.25px;
+    }
+
+    .itemTitle {
+        margin-top: 16.25px;
+    }
+    
+    .daniel .itemTitle,
+    .jonathan .itemTitle,
+    .kira .itemTitle {
+        margin-top: 16.5px;
+    }
+
+    article.reviewItem > :not(.itemHead) {
+        padding: 0 2px;
+    }
+
+    .itemDesc {
+        margin-top: 15.5px;
+    }
+
+    .jeanette .itemDesc,
+    .patrick .itemDesc,
+    .kira .itemDesc {
+        margin-top: auto;
+        margin-bottom: 2.5px;
     }
 }
 
@@ -128,7 +179,6 @@ main {
 
 article.reviewItem {
     border-radius: 8px;
-    padding: 24px 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -136,7 +186,6 @@ article.reviewItem {
 
 .itemHead {
     display: flex;
-    margin: 0.85px 0.25px;
 }
 
 .daniel .itemHeadAvatar, 
@@ -186,20 +235,9 @@ article.reviewItem {
     font-size: 11px;
 }
 
-article.reviewItem > :not(.itemHead) {
-    padding: 0 2px;
-}
-
 .itemTitle {
-    margin-top: 16.25px;
     letter-spacing: 0.225px;
     line-height: 24px;
-}
-
-.daniel .itemTitle,
-.jonathan .itemTitle,
-.kira .itemTitle {
-    margin-top: 16.5px;
 }
 
 .patrick .itemTitle {
@@ -207,16 +245,8 @@ article.reviewItem > :not(.itemHead) {
 }
 
 .itemDesc {
-    margin-top: 15.5px;
     opacity: 70%;
     line-height: 18px;
-}
-
-.jeanette .itemDesc,
-.patrick .itemDesc,
-.kira .itemDesc {
-    margin-top: auto;
-    margin-bottom: 2.5px;
 }
 
 .patrick .itemDesc,
