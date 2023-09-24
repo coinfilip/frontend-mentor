@@ -1,5 +1,13 @@
 # Challenges from Frontend Mentor
 
+## Junior
+
+### Testimonials grid section
+
+[Solution](https://github.com/coinfilip/frontend-mentor/tree/main/junior/testimonials-grid-section-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/junior/testimonials-grid-section-main)
+
+## Newbie
+
 ### NFT preview card component
 
 [Solution](https://github.com/coinfilip/frontend-mentor/tree/main/newbie/nft-preview-card-component-main) &bull; [Live Site](https://coinfilip.github.io/frontend-mentor/newbie/nft-preview-card-component-main/)
